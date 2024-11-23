@@ -1,5 +1,6 @@
 {
-    "version": "1.0",
-    "updateUrl": "https://drive.google.com/drive/folders/1dVJz_4nO9kBpkSvYmLcg7qAdns3tLRtr"
+  "resource_version": {
+    "version": "1.1",
+    "download_url": "https://firebase.storage.googleapis.com/v0/b/your-app-id.appspot.com/o/resources%2Fresource.zip?alt=media&token=yourtoken"
   }
-  
+}
