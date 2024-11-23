@@ -1,3 +1,6 @@
 {
-    "version": "1.1"
+  "resource_version": {
+    "version": "1.1",
+    "download_url": "https://firebase.storage.googleapis.com/v0/b/your-app-id.appspot.com/o/resources%2Fresource.zip?alt=media&token=yourtoken"
+  }
 }
