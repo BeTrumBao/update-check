@@ -1,0 +1,6 @@
+ {
+      "name": "file1.txt",          // Tên tệp
+      "url": "https://example.com/file1.txt", // URL để tải tệp
+      "hash": "d41d8cd98f00b204e9800998ecf8427e", // MD5 Hash của tệp
+      "size": 1024                 // Kích thước tệp tính bằng byte
+    }
