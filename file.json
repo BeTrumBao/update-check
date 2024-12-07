@@ -1,6 +1,0 @@
- {
-      "name": "firebase_unity_sdk_12.4.1.zip",          // Tên tệp
-      "url": "https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_12.4.1.zip", // URL để tải tệp
-      "hash": "d41d8cd98f00b204e9800998ecf8427e", // MD5 Hash của tệp
-      "size": 111,616            // Kích thước tệp tính bằng byte
-    }
