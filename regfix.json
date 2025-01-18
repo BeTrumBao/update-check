@@ -1,0 +1,9 @@
+{
+  "version": "1.1",
+  "notes": "Đây là ghi chú cập nhật mới nhất.",
+  "resources": [
+    "file1.txt",
+    "file2.txt",
+    "script.sh"
+  ]
+}
