@@ -1,0 +1,14 @@
+{
+    "notifications": [
+        {
+            "title": "Thông báo 1",
+            "image": "https://link_to_image1.jpg",
+            "message": "Nội dung thông báo 1"
+        },
+        {
+            "title": "Thông báo 2",
+            "image": "https://link_to_image2.jpg",
+            "message": "Nội dung thông báo 2"
+        }
+    ]
+}
