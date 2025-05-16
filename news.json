@@ -1,0 +1,12 @@
+[
+  {
+    "title": "🛠️ Bảo trì hệ thống",
+    "message": "Server sẽ bảo trì lúc 00:00 đêm nay. Vui lòng lưu dữ liệu.",
+    "type": "warning"
+  },
+  {
+    "title": "🔥 Cập nhật mới",
+    "message": "VarZone đã cập nhật hệ thống danh hiệu người dùng!",
+    "type": "info"
+  }
+]
