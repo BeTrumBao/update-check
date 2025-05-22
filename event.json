@@ -1,14 +1,14 @@
 [
   {
-    "title": "Sự kiện Mùa hè rực cháy",
-    "description": "Tham gia để nhận nhiều phần quà hấp dẫn trong mùa hè này!",
-    "image": "https://example.com/summer-event.jpg",
-    "time": "22/05/2025 - 30/06/2025"
+    "title": "Sự kiện hè sôi động!",
+    "description": "Tham gia sự kiện để nhận phần thưởng hấp dẫn!",
+    "image": "https://example.com/event1.jpg",
+    "link": "https://example.com/sukien1"
   },
   {
-    "title": "Mini Game: Đoán chữ",
-    "description": "Thử thách trí tuệ, nhận quà liền tay!",
-    "image": "https://example.com/guess-event.jpg",
-    "time": "24/05/2025 - 15/06/2025"
+    "title": "Mini game tuần này",
+    "description": "Trả lời đúng câu hỏi và nhận code quà tặng.",
+    "image": "https://example.com/event2.jpg",
+    "link": "https://example.com/sukien2"
   }
 ]
