@@ -350,18 +350,18 @@
     },
     {
         "id": 32,
-        "title": "Bài 32: Gửi dữ liệu Firebase",
-        "desc": "### Khái niệm\nBạn có thể sử dụng thư viện `requests` để tương tác với Firebase Realtime Database thông qua REST API của nó. Yêu cầu `POST` thường được dùng để thêm dữ liệu mới.\n\n### Ví dụ mẫu\n```python\nimport requests, json\nurl = '[https://your-project.firebaseio.com/data.json](https://your-project.firebaseio.com/data.json)'\nnew_data = {'user': 'test', 'message': 'hello'}\nresponse = requests.post(url, data=json.dumps(new_data))\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `import requests` và sau đó in ra chuỗi `San sang gui data`.",
+        "title": "Bài 32: Tương tác API (POST)",
+        "desc": "### Khái niệm\nNgoài `GET` để lấy dữ liệu, `requests.post(url, json=data)` được dùng để gửi dữ liệu mới lên một máy chủ hoặc API. Dữ liệu thường được gửi ở định dạng JSON.\n\n### Ví dụ mẫu\n```python\nimport requests\nurl = '[https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)'\nnew_post = {'title': 'foo', 'body': 'bar', 'userId': 1}\nresponse = requests.post(url, json=new_post)\nprint(response.status_code) # In ra 201 nếu tạo thành công\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, hãy `import requests` và in ra chuỗi `San sang gui POST`.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "San sang gui data"
+                "expected_output": "San sang gui POST"
             }
         ]
     },
     {
         "id": 33,
-        "title": "Bài 33: Đọc văn bản pyttsx3",
+        "title": "Bài 33: pyttsx3",
         "desc": "### Khái niệm\n`pyttsx3` là một thư viện chuyển văn bản thành giọng nói (Text-to-Speech) hoạt động ngoại tuyến. Nó cho phép chương trình của bạn 'nói' chuyện.\n\n### Ví dụ mẫu\n```python\nimport pyttsx3\nengine = pyttsx3.init()\nengine.say('Tôi có thể nói chuyện')\nengine.runAndWait()\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `import pyttsx3` và sau đó in ra chuỗi `Da import pyttsx3`.",
         "test_cases": [
             {
@@ -372,7 +372,7 @@
     },
     {
         "id": 34,
-        "title": "Bài 34: Tải video pytube",
+        "title": "Bài 34: pytube",
         "desc": "### Khái niệm\n`pytube` là một thư viện nhẹ, không có sự phụ thuộc, dùng để tải video từ YouTube. Nó cho phép bạn truy cập các luồng video và âm thanh khác nhau.\n\n### Ví dụ mẫu\n```python\nfrom pytube import YouTube\nvideo_url = 'URL_CUA_VIDEO_YOUTUBE'\nYouTube(video_url).streams.first().download()\nprint('Tải xong!')\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `from pytube import YouTube` và sau đó in ra chuỗi `Da import pytube`.",
         "test_cases": [
             {
@@ -400,6 +400,226 @@
             {
                 "input": "",
                 "expected_output": "Da import selenium"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "title": "Bài 37: OOP - Kế thừa",
+        "desc": "### Khái niệm\nKế thừa cho phép một lớp (lớp con) thừa hưởng các thuộc tính và phương thức từ một lớp khác (lớp cha). Điều này giúp tái sử dụng code và tạo ra một hệ thống phân cấp logic.\n\n### Ví dụ mẫu\n```python\nclass Animal:\n    def speak(self):\n        return 'Animal speaks'\n\nclass Dog(Animal): # Dog kế thừa từ Animal\n    def bark(self):\n        return 'Woof!'\n\nd = Dog()\nprint(d.speak()) # Gọi phương thức từ lớp cha\n```\n\n### Yêu cầu bài tập\nTạo một lớp cha `Vehicle` có phương thức `start_engine()` trả về chuỗi 'Engine started'. Tạo một lớp con `Car` kế thừa từ `Vehicle`. Tạo một đối tượng từ lớp `Car` và in kết quả của việc gọi phương thức `start_engine()`.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Engine started"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "title": "Bài 38: OOP - Ghi đè phương thức",
+        "desc": "### Khái niệm\nKhi một lớp con kế thừa từ lớp cha, nó có thể cung cấp một định nghĩa riêng cho một phương thức đã có ở lớp cha. Điều này được gọi là ghi đè phương thức (method overriding).\n\n### Ví dụ mẫu\n```python\nclass Animal:\n    def speak(self):\n        return 'Animal speaks'\n\nclass Cat(Animal):\n    def speak(self): # Ghi đè phương thức speak\n        return 'Meow!'\n\nprint(Cat().speak()) # Sẽ in ra 'Meow!'\n```\n\n### Yêu cầu bài tập\nTạo một lớp cha `Bird` có phương thức `fly()` in ra 'Bird flies'. Tạo một lớp con `Ostrich` (Đà điểu) kế thừa từ `Bird` và ghi đè phương thức `fly()` để in ra 'Ostrich cannot fly'. Tạo một đối tượng đà điểu và gọi phương thức `fly()`.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Ostrich cannot fly"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "title": "Bài 39: OOP - Đa kế thừa",
+        "desc": "### Khái niệm\nPython hỗ trợ đa kế thừa, nghĩa là một lớp con có thể kế thừa từ nhiều lớp cha. Lớp con sẽ có tất cả các thuộc tính và phương thức của tất cả các lớp cha.\n\n### Ví dụ mẫu\n```python\nclass Father:\n    def skill_F(self):\n        print('Gardening')\n\nclass Mother:\n    def skill_M(self):\n        print('Cooking')\n\nclass Child(Father, Mother):\n    pass\n\nc = Child()\nc.skill_F()\nc.skill_M()\n```\n\n### Yêu cầu bài tập\nTạo lớp `Swimmer` có phương thức `swim()` in ra 'swimming'. Tạo lớp `Flyer` có phương thức `fly()` in ra 'flying'. Tạo lớp `Duck` kế thừa từ cả hai lớp trên. Tạo một đối tượng `Duck` và gọi cả hai phương thức `swim()` và `fly()` (mỗi kết quả trên một dòng).",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "swimming\nflying"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "title": "Bài 40: Decorators cơ bản",
+        "desc": "### Khái niệm\nDecorator là một hàm nhận một hàm khác làm đối số, thêm một số chức năng vào nó, và trả về một hàm khác mà không thay đổi mã nguồn của hàm ban đầu. Cú pháp thường dùng là `@ten_decorator`.\n\n### Ví dụ mẫu\n```python\ndef my_decorator(func):\n    def wrapper():\n        print('Trước khi hàm được gọi.')\n        func()\n        print('Sau khi hàm được gọi.')\n    return wrapper\n\n@my_decorator\ndef say_whee():\n    print('Whee!')\n\nsay_whee()\n```\n\n### Yêu cầu bài tập\nTạo một decorator tên là `hello_decorator` sẽ in ra 'Hello' trước khi thực thi hàm được trang trí. Áp dụng nó vào hàm `say_world()` in ra chuỗi 'World'.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Hello\nWorld"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "title": "Bài 41: Generators và yield",
+        "desc": "### Khái niệm\nGenerator là một cách đơn giản để tạo ra các iterator. Thay vì `return` một giá trị và kết thúc, một hàm generator dùng `yield` để 'tạm dừng' và 'trả về' một giá trị, sau đó có thể tiếp tục từ điểm đó.\n\n### Ví dụ mẫu\n```python\ndef countdown(num):\n    while num > 0:\n        yield num\n        num -= 1\n\nfor i in countdown(3):\n    print(i)\n```\n\n### Yêu cầu bài tập\nViết một generator function tên `even_numbers` nhận một số `n` và `yield` các số chẵn từ 0 đến `n`. Sau đó, dùng vòng lặp `for` để in ra các số từ `even_numbers(6)`.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "0\n2\n4\n6"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "title": "Bài 42: Context Managers (with)",
+        "desc": "### Khái niệm\nContext Manager là một đối tượng định nghĩa các phương thức `__enter__` và `__exit__`. Nó được sử dụng với câu lệnh `with` để quản lý tài nguyên (như file, kết nối mạng), đảm bảo chúng được giải phóng đúng cách ngay cả khi có lỗi.\n\n### Ví dụ mẫu\n```python\nclass ManagedFile:\n    def __init__(self, name):\n        self.name = name\n    def __enter__(self):\n        print('Mở file')\n        self.file = open(self.name, 'w')\n        return self.file\n    def __exit__(self, exc_type, exc_val, exc_tb):\n        if self.file:\n            self.file.close()\n        print('Đóng file')\n\nwith ManagedFile('test.txt') as f:\n    f.write('hello')\n```\n\n### Yêu cầu bài tập\nIn ra chuỗi 'Start' sau đó in ra 'End', mô phỏng việc bắt đầu và kết thúc của một khối `with`.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Start\nEnd"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "title": "Bài 43: *args và **kwargs",
+        "desc": "### Khái niệm\n- `*args`: Cho phép một hàm nhận một số lượng đối số vị trí (positional arguments) không xác định. Nó sẽ gom các đối số này thành một tuple.\n- `**kwargs`: Cho phép một hàm nhận một số lượng đối số từ khóa (keyword arguments) không xác định. Nó sẽ gom chúng thành một dictionary.\n\n### Ví dụ mẫu\n```python\ndef my_func(*args, **kwargs):\n    print('Args:', args)\n    print('Kwargs:', kwargs)\n\nmy_func(1, 2, 3, name='An', age=20)\n```\n\n### Yêu cầu bài tập\nViết một hàm `tong_args` nhận `*args` và in ra tổng của tất cả các đối số được truyền vào. Gọi hàm với các số 1, 2, 3, 4.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "10"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "title": "Bài 44: Thư viện `collections`",
+        "desc": "### Khái niệm\nThư viện `collections` cung cấp các kiểu dữ liệu container chuyên dụng. `Counter` là một lớp con của dictionary dùng để đếm các đối tượng có thể hash.\n\n### Ví dụ mẫu\n```python\nfrom collections import Counter\nmy_list = ['a', 'b', 'c', 'a', 'b', 'a']\nc = Counter(my_list)\nprint(c['a']) # In ra 3\n```\n\n### Yêu cầu bài tập\nDùng `Counter` từ thư viện `collections` để đếm số lần xuất hiện của số 5 trong danh sách `[1, 5, 2, 5, 3, 5, 4]` và in kết quả ra.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "3"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "title": "Bài 45: f-Strings",
+        "desc": "### Khái niệm\nf-Strings (Formatted String Literals) là cách định dạng chuỗi hiện đại và được ưa chuộng nhất trong Python (từ phiên bản 3.6+). Nó cho phép nhúng trực tiếp giá trị của biến vào chuỗi bằng cách đặt chữ `f` trước dấu nháy và đặt biến trong dấu `{}`.\n\n### Ví dụ mẫu\n```python\nname = 'Python'\nversion = 3.11\nprint(f'Chào mừng đến với {name} phiên bản {version}!')\n```\n\n### Yêu cầu bài tập\nCho biến `mon_hoc = 'Lập trình'` và `diem = 10`. Dùng f-string để in ra chuỗi 'Môn Lập trình được 10 điểm'.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Môn Lập trình được 10 điểm"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "title": "Bài 46: Type Hinting",
+        "desc": "### Khái niệm\nType Hinting (chỉ dẫn kiểu) là cách để chỉ định kiểu dữ liệu mong muốn cho các biến, tham số hàm và giá trị trả về. Nó không bắt buộc nhưng giúp code dễ đọc, dễ bảo trì và được các công cụ phân tích tĩnh hỗ trợ.\n\n### Ví dụ mẫu\n```python\ndef chao(ten: str) -> str:\n    return 'Chào ' + ten\n\n# Dù có type hint, bạn vẫn có thể truyền sai kiểu\n# print(chao(123)) # Vẫn chạy nhưng không đúng ý đồ\n```\n\n### Yêu cầu bài tập\nViết một hàm `tinh_tong` có các chỉ dẫn kiểu, nhận vào hai số nguyên (`a: int, b: int`) và trả về một số nguyên (`-> int`). Trong hàm, trả về tổng của `a` và `b`. Sau đó gọi hàm với `tinh_tong(5, 7)` và in kết quả.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "12"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Bài 50: Unit Testing",
+        "desc": "### Khái niệm\nUnit testing là quá trình kiểm thử từng đơn vị (unit) nhỏ nhất của mã nguồn (thường là hàm hoặc phương thức) một cách riêng rẽ. Thư viện `unittest` tích hợp sẵn trong Python giúp bạn viết và chạy các kịch bản kiểm thử.\n\n### Ví dụ mẫu\n```python\nimport unittest\n\ndef add(a, b):\n    return a + b\n\nclass TestAdd(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(add(2, 3), 5)\n\n# Để chạy, cần chạy file với cờ -m unittest\n```\n\n### Yêu cầu bài tập\nViết một hàm `multiply(a, b)` trả về tích của a và b. Sau đó, in kết quả của `multiply(3, 4)` ra màn hình.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "12"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "title": "Bài 51: Logging",
+        "desc": "### Khái niệm\nThư viện `logging` là một công cụ mạnh mẽ để ghi lại các thông điệp theo dõi từ chương trình của bạn. So với `print()`, logging cho phép bạn phân loại thông điệp theo mức độ quan trọng (DEBUG, INFO, WARNING, ERROR, CRITICAL) và dễ dàng cấu hình để ghi ra file hoặc console.\n\n### Ví dụ mẫu\n```python\nimport logging\nlogging.basicConfig(level=logging.INFO)\n\nlogging.info('Đây là một thông điệp thông tin.')\nlogging.warning('Đây là một cảnh báo.')\n```\n\n### Yêu cầu bài tập\nImport thư viện `logging` và in ra một thông điệp ở mức INFO với nội dung `Hoc logging`.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": ""
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "title": "Bài 55: Flask - Web App đầu tiên",
+        "desc": "### Khái niệm\nFlask là một micro web framework cho Python. Nó rất nhẹ và dễ bắt đầu, cho phép bạn tạo ra các ứng dụng web một cách nhanh chóng. `@app.route('/')` là một decorator để gán một URL với một hàm.\n\n### Ví dụ mẫu\n```python\n# Cần cài đặt: pip install Flask\nfrom flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef hello():\n    return 'Hello from Flask!'\n\n# Để chạy, lưu file và chạy lệnh 'flask run'\n```\n\n### Yêu cầu bài tập\nDo không thể chạy web server, bạn hãy viết code Flask để tạo một route `/test` trả về chuỗi `Flask Test Passed`. Sau đó, hãy in ra chuỗi đó để xác nhận.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Flask Test Passed"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "title": "Bài 60: Pandas - Đọc CSV",
+        "desc": "### Khái niệm\nMột trong những chức năng mạnh nhất của Pandas là đọc dữ liệu từ nhiều định dạng khác nhau. `pd.read_csv('ten_file.csv')` là hàm dùng để đọc một file CSV và chuyển nó thành một DataFrame.\n\n### Ví dụ mẫu\n```python\nimport pandas as pd\nimport io\n\n# Giả lập một file CSV\ndata = 'col1,col2\\n1,2\\n3,4'\ndf = pd.read_csv(io.StringIO(data))\nprint(df)\n```\n\n### Yêu cầu bài tập\nIn ra chuỗi `pandas.read_csv` để xác nhận bạn biết tên hàm.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "pandas.read_csv"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "title": "Bài 61: Pandas - GroupBy",
+        "desc": "### Khái niệm\nThao tác GroupBy trong Pandas cho phép bạn nhóm các hàng dữ liệu lại với nhau dựa trên một hoặc nhiều cột, sau đó thực hiện các phép tính tổng hợp (như `sum`, `mean`, `count`) trên mỗi nhóm.\n\n### Ví dụ mẫu\n```python\nimport pandas as pd\ndata = {'Team': ['A', 'B', 'A', 'B'], 'Points': [10, 15, 8, 12]}\ndf = pd.DataFrame(data)\ngrouped = df.groupby('Team').sum()\nprint(grouped)\n```\n\n### Yêu cầu bài tập\nCho DataFrame trong ví dụ mẫu. Hãy tính và in ra tổng điểm của đội 'A'.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "18"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "title": "Bài 70: Matplotlib - Vẽ đồ thị",
+        "desc": "### Khái niệm\n`Matplotlib` là thư viện vẽ đồ thị 2D phổ biến nhất của Python. Nó cung cấp một loạt các hàm để tạo ra các biểu đồ đường, cột, tròn, phân tán và nhiều hơn nữa. `plt.plot()` để vẽ, `plt.show()` để hiển thị.\n\n### Ví dụ mẫu\n```python\n# Cần cài đặt: pip install matplotlib\nimport matplotlib.pyplot as plt\n\nplt.plot([1, 2, 3], [4, 5, 1])\nplt.ylabel('Một vài con số')\nplt.show()\n```\n\n### Yêu cầu bài tập\nDo không thể hiển thị đồ thị, hãy `import matplotlib.pyplot as plt` và sau đó in ra chuỗi `Plot da duoc ve`.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Plot da duoc ve"
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "title": "Bài 80: Threading",
+        "desc": "### Khái niệm\nThreading (đa luồng) cho phép chương trình của bạn thực hiện nhiều công việc 'gần như' đồng thời. Nó hữu ích cho các tác vụ bị chặn bởi I/O (như tải file, gọi API). Mỗi luồng là một chuỗi thực thi riêng biệt.\n\n### Ví dụ mẫu\n```python\nimport threading\nimport time\n\ndef worker():\n    print('Worker bắt đầu')\n    time.sleep(2)\n    print('Worker kết thúc')\n\nt = threading.Thread(target=worker)\nt.start()\nprint('Hàm main kết thúc')\n```\n\n### Yêu cầu bài tập\nImport thư viện `threading` và in ra chuỗi `Da import threading`.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Da import threading"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "title": "Bài 85: Asyncio",
+        "desc": "### Khái niệm\n`asyncio` là một thư viện để viết code đồng thời bằng cú pháp `async/await`. Nó đặc biệt mạnh cho các ứng dụng có số lượng lớn kết nối I/O (như web server, bot). `async def` định nghĩa một coroutine, và `await` tạm dừng nó để chạy các tác vụ khác.\n\n### Ví dụ mẫu\n```python\nimport asyncio\n\nasync def main():\n    print('hello')\n    await asyncio.sleep(1)\n    print('world')\n\nasyncio.run(main())\n```\n\n### Yêu cầu bài tập\nImport thư viện `asyncio` và in ra chuỗi `Da import asyncio`.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Da import asyncio"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "title": "Bài 90: Scikit-learn",
+        "desc": "### Khái niệm\n`Scikit-learn` là thư viện học máy (Machine Learning) hàng đầu cho Python. Nó cung cấp các công cụ đơn giản và hiệu quả cho việc khai phá và phân tích dữ liệu, được xây dựng trên NumPy, SciPy, và matplotlib.\n\n### Ví dụ mẫu\n```python\n# Cần cài đặt: pip install scikit-learn\nfrom sklearn.linear_model import LinearRegression\n\nmodel = LinearRegression()\n# Huấn luyện model với dữ liệu...\n```\n\n### Yêu cầu bài tập\n`from sklearn.model_selection import train_test_split` và in ra chuỗi `Da import scikit-learn`.",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Da import scikit-learn"
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "title": "Bài 100: Chúc mừng!",
+        "desc": "### Khái niệm\nBạn đã đi đến bài học cuối cùng! Hoàn thành bài học này đồng nghĩa với việc bạn đã có một cái nhìn tổng quan cực kỳ rộng về thế giới Python, từ những lệnh in đơn giản nhất đến các khái niệm về web, dữ liệu, và học máy. Đây là một thành tựu đáng tự hào!\n\n### Ví dụ mẫu\n```python\nprint('Tôi đã sẵn sàng cho các thử thách thực tế!')\n```\n\n### Yêu cầu bài tập\nĐể tốt nghiệp khóa học, hãy in ra chuỗi 'Khoa hoc hoan thanh!'",
+        "test_cases": [
+            {
+                "input": "",
+                "expected_output": "Khoa hoc hoan thanh!"
             }
         ]
     }
