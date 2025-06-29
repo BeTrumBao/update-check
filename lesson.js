@@ -22,9 +22,9 @@
         ]
     },
     {
-        "id": 3,
+       "id": 3,
         "title": "Bài 3: Nhập Tên Người Dùng",
-        "desc": "### Khái niệm\nHàm `input()` cho phép chương trình dừng lại và chờ người dùng nhập dữ liệu từ bàn phím. Dữ liệu nhập vào luôn ở dạng chuỗi (string).\n\n### Ví dụ mẫu\n```python\nten_nguoi_dung = input('Vui lòng nhập tên của bạn: ')\nprint('Xin chào,', ten_nguoi_dung)\n```\n\n### Yêu cầu bài tập\nViết chương trình nhận một tên từ người dùng và in ra lời chào theo mẫu `Chào ` + tên người dùng. Ví dụ, nếu người dùng nhập `An`, chương trình phải in ra `Chào An`.",
+        "desc": "### Khái niệm\nHàm `input()` cho phép chương trình dừng lại và chờ người dùng nhập dữ liệu từ bàn phím. Dữ liệu nhập vào luôn ở dạng chuỗi (string).\n\n### Ví dụ mẫu\n```python\n# Chương trình sẽ chờ bạn nhập tên rồi mới chạy tiếp\nten_nguoi_dung = input()\nprint('Xin chào,', ten_nguoi_dung)\n```\n\n### Yêu cầu bài tập\nViết chương trình đọc một dòng từ input (sử dụng hàm `input()` không có đối số) và in ra lời chào theo mẫu `Chào ` + tên người dùng. Ví dụ, nếu input là `An`, chương trình phải in ra `Chào An`.",
         "test_cases": [
             {
                 "input": "An",
