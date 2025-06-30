@@ -1,4 +1,6 @@
-[
+{
+  "version": 2.0,
+  "lessons": [
     {
         "id": 1,
         "title": "Bài 1: Hello World",
@@ -108,8 +110,8 @@
     },
     {
         "id": 10,
-        "title": "Bài 10: random",
-        "desc": "### Khái niệm\nThư viện `random` cung cấp các hàm để tạo ra số giả ngẫu nhiên. Để sử dụng, bạn cần `import random`. Hàm `random.randint(a, b)` trả về một số nguyên ngẫu nhiên trong khoảng `[a, b]` (bao gồm cả a và b).\n\n### Ví dụ mẫu\n```python\nimport random\nxuc_xac = random.randint(1, 6)\nprint('Bạn đã tung được số:', xuc_xac)\n```\n\n### Yêu cầu bài tập\nĐể kết quả có thể kiểm tra được, hãy dùng `random.seed(42)` để cố định kết quả ngẫu nhiên. Sau đó, import thư viện `random` và in ra một số ngẫu nhiên trong khoảng từ 1 đến 10.",
+        "title": "Bài 10: Module random",
+        "desc": "### Khái niệm\nModule là một file Python chứa các hàm và biến, giúp tổ chức code. Thư viện `random` là một module có sẵn, cung cấp các hàm để tạo ra số giả ngẫu nhiên. Để sử dụng, bạn phải `import random`.\n\n### Vận dụng\n- `random.randint(a, b)`: Lấy một số nguyên ngẫu nhiên từ a đến b.\n- `random.choice(list)`: Chọn một phần tử ngẫu nhiên từ một danh sách.\n\nTrong lập trình game, `random` dùng để quyết định vật phẩm rơi ra. Trong phân tích dữ liệu, nó dùng để lấy mẫu ngẫu nhiên.\n\n### Yêu cầu bài tập\nĐể kết quả có thể kiểm tra được, hãy dùng `random.seed(42)` để cố định kết quả ngẫu nhiên. Sau đó, import thư viện `random` và in ra một số ngẫu nhiên trong khoảng từ 1 đến 10.",
         "test_cases": [
             {
                 "input": "",
@@ -119,8 +121,8 @@
     },
     {
         "id": 11,
-        "title": "Bài 11: math",
-        "desc": "### Khái niệm\nThư viện `math` cung cấp các hàm toán học nâng cao. Hàm `math.sqrt(x)` dùng để tính căn bậc hai của một số x.\n\n### Ví dụ mẫu\n```python\nimport math\n# Tính căn bậc 2 của 25\nket_qua = math.sqrt(25)\nprint(ket_qua)\n```\n\n### Yêu cầu bài tập\nDùng thư viện `math`, tính và in ra căn bậc hai của 16.",
+        "title": "Bài 11: Module math",
+        "desc": "### Khái niệm\nModule `math` cung cấp các hằng số và hàm toán học nâng cao mà các toán tử cơ bản (`+`, `-`, `*`, `/`) không có.\n\n### Vận dụng\n- `math.sqrt(x)`: Tính căn bậc hai.\n- `math.pi`: Hằng số Pi (3.14159...).\n- `math.ceil(x)`: Làm tròn lên số nguyên gần nhất.\n- `math.floor(x)`: Làm tròn xuống số nguyên gần nhất.\n\nModule `math` không thể thiếu trong các ứng dụng khoa học, kỹ thuật, đồ họa 3D.\n\n### Yêu cầu bài tập\nDùng thư viện `math`, tính và in ra căn bậc hai của 16.",
         "test_cases": [
             {
                 "input": "",
@@ -130,30 +132,30 @@
     },
     {
         "id": 12,
-        "title": "Bài 12: time",
-        "desc": "### Khái niệm\nThư viện `time` cung cấp các hàm liên quan đến thời gian, ví dụ như `time.sleep(x)` để tạm dừng chương trình trong x giây, hoặc `time.time()` để lấy số giây tính từ một mốc thời gian chuẩn.\n\n### Ví dụ mẫu\n```python\nimport time\nprint('Bắt đầu')\ntime.sleep(2) # Dừng 2 giây\nprint('Kết thúc')\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra việc sử dụng thư viện, bạn chỉ cần `import time` và sau đó in ra chuỗi `Da import time`.",
+        "title": "Bài 12: Module time",
+        "desc": "### Khái niệm\nModule `time` cung cấp các hàm liên quan đến thời gian. Chức năng quan trọng nhất của nó là đo lường thời gian thực thi và tạm dừng chương trình.\n\n### Vận dụng\n- `time.sleep(x)`: Tạm dừng chương trình trong x giây. Rất hữu ích khi bạn muốn chương trình chạy chậm lại, hoặc chờ một tác vụ khác hoàn thành.\n- `time.time()`: Trả về số giây tính từ một mốc thời gian chuẩn (Epoch). Thường dùng để đo thời gian chạy của một đoạn code.\n\n### Yêu cầu bài tập\nĐể mô phỏng việc đo thời gian, hãy import thư viện `time`. Sau đó in ra chuỗi `Start`, rồi đến chuỗi `End`. (Trong thực tế, bạn sẽ đặt `time.sleep()` vào giữa hai lệnh in này).",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "Da import time"
+                "expected_output": "Start\nEnd"
             }
         ]
     },
     {
         "id": 13,
-        "title": "Bài 13: datetime",
-        "desc": "### Khái niệm\nThư viện `datetime` là công cụ mạnh mẽ để làm việc với ngày và giờ. `datetime.now()` là một hàm phổ biến để lấy ngày giờ hiện tại của hệ thống.\n\n### Ví dụ mẫu\n```python\nfrom datetime import datetime\nhien_tai = datetime.now()\nprint(hien_tai)\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `from datetime import datetime` và sau đó in ra chuỗi `Da import datetime`.",
+        "title": "Bài 13: Module datetime",
+        "desc": "### Khái niệm\nNếu `time` tập trung vào 'khoảng thời gian', thì `datetime` là công cụ mạnh mẽ để làm việc với ngày, tháng, năm, giờ, phút, giây cụ thể. Nó cho phép bạn thực hiện các phép toán trên ngày tháng.\n\n### Vận dụng\n- `datetime.now()`: Lấy ngày giờ hiện tại.\n- `datetime(year, month, day)`: Tạo một đối tượng ngày cụ thể.\n- `strftime('%d/%m/%Y')`: Định dạng lại cách hiển thị ngày tháng.\n\n### Yêu cầu bài tập\nSử dụng `datetime`, tạo một đối tượng đại diện cho ngày 30 tháng 6 năm 2025. Sau đó, dùng `strftime` để định dạng và in nó ra dưới dạng `30/06/2025`.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "Da import datetime"
+                "expected_output": "30/06/2025"
             }
         ]
     },
     {
         "id": 14,
         "title": "Bài 14: Ghi file",
-        "desc": "### Khái niệm\nĐể ghi nội dung vào một file, ta dùng hàm `open()` với chế độ `'w'` (write). Cú pháp `with open(...)` rất được khuyến khích vì nó sẽ tự động đóng file sau khi dùng xong.\n\n### Ví dụ mẫu\n```python\nwith open('nhatky.txt', 'w', encoding='utf-8') as f:\n    f.write('Hôm nay trời đẹp.')\n```\n\n### Yêu cầu bài tập\nHãy viết code để mở một file tên `a.txt` ở chế độ ghi, ghi chuỗi `xin chao` vào file, và sau khi hoàn tất, in ra chuỗi `Da ghi file`.",
+        "desc": "### Khái niệm\nĐể ghi nội dung vào một file, ta dùng hàm `open()` với chế độ `'w'` (write). Cú pháp `with open(...)` rất được khuyến khích vì nó sẽ tự động đóng file sau khi dùng xong, tránh gây lỗi.\n\n### Ví dụ mẫu\n```python\nwith open('nhatky.txt', 'w', encoding='utf-8') as f:\n    f.write('Hôm nay trời đẹp.')\n```\n\n### Yêu cầu bài tập\nHãy viết code để mở một file tên `a.txt` ở chế độ ghi, ghi chuỗi `xin chao` vào file, và sau khi hoàn tất, in ra chuỗi `Da ghi file`.",
         "test_cases": [
             {
                 "input": "",
@@ -174,12 +176,12 @@
     },
     {
         "id": 16,
-        "title": "Bài 16: vẽ với turtle",
-        "desc": "### Khái niệm\nThư viện `turtle` là một cách vui nhộn để học lập trình bằng cách điều khiển một 'con rùa' ảo để vẽ các hình ảnh đồ họa. Bạn có thể dùng các lệnh như `forward()`, `left()`, `right()`.\n\n### Ví dụ mẫu\n```python\nimport turtle\nturtle.forward(100) # Đi thẳng 100 bước\nturtle.left(90)     # Quay trái 90 độ\nturtle.done()       # Giữ cửa sổ mở\n```\n\n### Yêu cầu bài tập\nDo không thể kiểm tra cửa sổ đồ họa, bạn chỉ cần `import turtle` và sau đó in ra chuỗi `Da import turtle`.",
+        "title": "Bài 16: Module turtle",
+        "desc": "### Khái niệm\nThư viện `turtle` là một cách vui nhộn để học lập trình bằng cách điều khiển một 'con rùa' ảo để vẽ các hình ảnh đồ họa. Bạn có thể dùng các lệnh như `forward()`, `left()`, `right()` để vẽ hình vuông, tam giác, và nhiều hình phức tạp khác.\n\n*Lưu ý quan trọng:* Vì ứng dụng học tập này của chúng ta chạy trong môi trường văn bản, nó không thể hiển thị cửa sổ đồ họa của Turtle. Do đó, bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\nĐể xác nhận bạn đã hiểu về sự tồn tại của thư viện này, hãy `import turtle` và sau đó in ra chuỗi `Turtle da san sang`.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "Da import turtle"
+                "expected_output": "Turtle da san sang"
             }
         ]
     },
@@ -229,8 +231,8 @@
     },
     {
         "id": 21,
-        "title": "Bài 21: json",
-        "desc": "### Khái niệm\nJSON là một định dạng lưu trữ và trao đổi dữ liệu rất phổ biến. Thư viện `json` của Python cho phép bạn làm việc với dữ liệu JSON. `json.dumps()` chuyển một đối tượng Python (như dictionary) thành chuỗi JSON.\n\n### Ví dụ mẫu\n```python\nimport json\ndata = {'thanh_pho': 'Hanoi', 'quoc_gia': 'Vietnam'}\njson_string = json.dumps(data, ensure_ascii=False)\nprint(json_string)\n```\n\n### Yêu cầu bài tập\nDùng thư viện `json`, chuyển dictionary `{\"name\": \"An\"}` thành một chuỗi JSON và in chuỗi đó ra.",
+        "title": "Bài 21: Module json",
+        "desc": "### Khái niệm\nJSON là một định dạng lưu trữ và trao đổi dữ liệu rất phổ biến. Module `json` của Python cho phép bạn làm việc với dữ liệu JSON.\n\n### Vận dụng\n- `json.dumps(dict)`: Chuyển một dictionary của Python thành một chuỗi JSON. Dùng khi bạn cần gửi dữ liệu đi qua mạng.\n- `json.loads(string)`: Chuyển một chuỗi JSON thành một dictionary của Python. Dùng khi bạn nhận dữ liệu từ một API.\n\n### Yêu cầu bài tập\nDùng thư viện `json`, chuyển dictionary `{\"name\": \"An\"}` thành một chuỗi JSON và in chuỗi đó ra.",
         "test_cases": [
             {
                 "input": "",
@@ -240,8 +242,8 @@
     },
     {
         "id": 22,
-        "title": "Bài 22: statistics",
-        "desc": "### Khái niệm\nThư viện `statistics` cung cấp các hàm thống kê toán học. Hàm `statistics.mean()` dùng để tính giá trị trung bình cộng của một chuỗi các số.\n\n### Ví dụ mẫu\n```python\nimport statistics\ndiem_so = [8, 9, 7, 10, 8]\nprint(statistics.mean(diem_so))\n```\n\n### Yêu cầu bài tập\nDùng thư viện `statistics`, tính và in ra giá trị trung bình của danh sách `[10, 20, 30]`.",
+        "title": "Bài 22: Module statistics",
+        "desc": "### Khái niệm\nThư viện `statistics` cung cấp các hàm thống kê toán học đơn giản, dễ sử dụng.\n\n### Vận dụng\n- `statistics.mean(list)`: Tính giá trị trung bình cộng.\n- `statistics.median(list)`: Tìm giá trị trung vị (số ở giữa sau khi sắp xếp).\n- `statistics.mode(list)`: Tìm giá trị xuất hiện nhiều nhất.\n\n### Yêu cầu bài tập\nDùng thư viện `statistics`, tính và in ra giá trị trung bình của danh sách `[10, 20, 30]`.",
         "test_cases": [
             {
                 "input": "",
@@ -251,52 +253,52 @@
     },
     {
         "id": 23,
-        "title": "Bài 23: Làm việc với CSV",
-        "desc": "### Khái niệm\nCSV (Comma-Separated Values) là một định dạng file văn bản đơn giản để lưu trữ dữ liệu dạng bảng. Thư viện `csv` của Python giúp việc đọc và ghi các file này trở nên dễ dàng.\n\n### Ví dụ mẫu\n```python\nimport csv\nwith open('data.csv', 'w', newline='') as f:\n    writer = csv.writer(f)\n    writer.writerow(['Tên', 'Tuổi'])\n    writer.writerow(['An', 20])\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn chỉ cần `import csv` và sau đó in ra chuỗi `Da import csv`.",
+        "title": "Bài 23: Module csv",
+        "desc": "### Khái niệm\nCSV là định dạng file văn bản đơn giản để lưu trữ dữ liệu dạng bảng. Module `csv` giúp việc đọc và ghi các file này trở nên dễ dàng và an toàn, tự động xử lý các dấu phẩy và dấu xuống dòng trong dữ liệu.\n\n### Vận dụng\n- `csv.writer`: Để ghi dữ liệu vào file CSV.\n- `csv.reader`: Để đọc dữ liệu từ file CSV.\n\nDo không thể kiểm tra file, chúng ta sẽ mô phỏng. `io.StringIO` tạo ra một 'file' trong bộ nhớ.\n\n### Yêu cầu bài tập\nSử dụng `csv` và `io.StringIO`, tạo một writer để ghi dòng `['ten', 'tuoi']` và `['An', '20']`. Sau đó, in ra chuỗi kết quả từ `io.StringIO`.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "Da import csv"
+                "expected_output": "ten,tuoi\r\nAn,20\r\n"
             }
         ]
     },
     {
         "id": 24,
-        "title": "Bài 24: os và sys",
-        "desc": "### Khái niệm\n- `os`: Cung cấp các hàm để tương tác với hệ điều hành, ví dụ như tạo thư mục (`os.mkdir`), lấy đường dẫn hiện tại (`os.getcwd`).\n- `sys`: Cung cấp quyền truy cập vào các biến và hàm được sử dụng hoặc duy trì bởi trình thông dịch Python, ví dụ như đường dẫn tìm kiếm module (`sys.path`).\n\n### Ví dụ mẫu\n```python\nimport os\nprint('Thư mục hiện tại:', os.getcwd())\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `import os` và `import sys`, sau đó in ra chuỗi `Da import os va sys`.",
+        "title": "Bài 24: Module os và sys",
+        "desc": "### Khái niệm\n- `os`: Tương tác với hệ điều hành (OS). Ví dụ: `os.getcwd()` lấy đường dẫn hiện tại, `os.listdir()` liệt kê file, `os.sep` là dấu phân cách đường dẫn của HĐH (`\\` cho Windows, `/` cho Linux/Mac).\n- `sys`: Tương tác với trình thông dịch Python. Ví dụ: `sys.version` xem phiên bản Python, `sys.platform` xem tên HĐH.\n\n### Yêu cầu bài tập\nImport `sys` và in ra giá trị của `sys.platform`. Kết quả sẽ là 'win32', 'linux', hoặc 'darwin' (cho macOS).",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "Da import os va sys"
+                "expected_output": "win32"
             }
         ]
     },
     {
         "id": 25,
-        "title": "Bài 25: tkinter GUI",
-        "desc": "### Khái niệm\n`tkinter` là thư viện giao diện đồ họa (GUI) tiêu chuẩn của Python. Nó cho phép bạn tạo các cửa sổ, nút bấm, ô nhập liệu và các thành phần đồ họa khác.\n\n### Ví dụ mẫu\n```python\nimport tkinter as tk\nwindow = tk.Tk()\nwindow.title('Cửa sổ của tôi')\nlabel = tk.Label(window, text='Chào bạn!')\nlabel.pack()\nwindow.mainloop()\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `import tkinter` và sau đó in ra chuỗi `Da import tkinter`.",
+        "title": "Bài 25: Module tkinter GUI",
+        "desc": "### Khái niệm\n`tkinter` là thư viện giao diện đồ họa (GUI) tiêu chuẩn của Python. Nó cho phép bạn tạo các cửa sổ, nút bấm, ô nhập liệu và các thành phần đồ họa khác để tạo thành một ứng dụng desktop hoàn chỉnh.\n\n*Lưu ý quan trọng:* Giống như Turtle, ứng dụng này không thể hiển thị cửa sổ đồ họa của tkinter. Bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\nĐể xác nhận bạn biết về tkinter, `import tkinter` và sau đó in ra chuỗi `tkinter da san sang`.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "Da import tkinter"
+                "expected_output": "tkinter da san sang"
             }
         ]
     },
     {
         "id": 26,
-        "title": "Bài 26: SQLite cơ bản",
-        "desc": "### Khái niệm\n`sqlite3` là một thư viện tích hợp sẵn trong Python cho phép bạn tạo và quản lý các cơ sở dữ liệu SQLite. SQLite là một hệ quản trị CSDL nhỏ gọn, không cần máy chủ riêng.\n\n### Ví dụ mẫu\n```python\nimport sqlite3\nconn = sqlite3.connect('mydatabase.db')\ncursor = conn.cursor()\n# Các thao tác khác...\nconn.close()\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `import sqlite3` và sau đó in ra chuỗi `Da import sqlite3`.",
+        "title": "Bài 26: Module sqlite3",
+        "desc": "### Khái niệm\n`sqlite3` là một thư viện tích hợp sẵn cho phép bạn tạo và quản lý các cơ sở dữ liệu SQLite. SQLite là một CSDL quan hệ nhỏ gọn, không cần máy chủ riêng, lưu toàn bộ dữ liệu vào một file duy nhất. Chính ứng dụng này cũng đang dùng `sqlite3`!\n\n### Vận dụng\n- `sqlite3.connect('ten_file.db')`: Kết nối hoặc tạo một file CSDL.\n- `cursor.execute('SQL query')`: Thực thi một câu lệnh SQL.\n\n### Yêu cầu bài tập\nImport thư viện `sqlite3` và in ra phiên bản của nó bằng cách truy cập biến `sqlite3.sqlite_version`.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "Da import sqlite3"
+                "expected_output": "3.45.3"
             }
         ]
     },
     {
         "id": 27,
-        "title": "Bài 27: Regular Expression (re)",
-        "desc": "### Khái niệm\nBiểu thức chính quy (Regular Expression) là một chuỗi các ký tự tạo thành một mẫu tìm kiếm. Thư viện `re` của Python cho phép bạn sử dụng các mẫu này để tìm kiếm, khớp và thay thế trong văn bản. `re.findall()` tìm tất cả các chuỗi con khớp với mẫu.\n\n### Ví dụ mẫu\n```python\nimport re\ntext = 'Số điện thoại của tôi là 123-456-7890.'\nnumbers = re.findall(r'\\d+', text)\nprint(numbers) # In ra ['123', '456', '7890']\n```\n\n### Yêu cầu bài tập\nDùng thư viện `re`, tìm tất cả các số trong chuỗi `abc123def456` và in danh sách kết quả ra.",
+        "title": "Bài 27: Module re",
+        "desc": "### Khái niệm\nBiểu thức chính quy (Regular Expression) là một chuỗi các ký tự tạo thành một mẫu tìm kiếm. Module `re` của Python cho phép bạn dùng các mẫu này để tìm kiếm, khớp và thay thế trong văn bản.\n\n### Vận dụng\n- `re.findall(mau, chuoi)`: Tìm tất cả các chuỗi con khớp với mẫu.\n- `re.search(mau, chuoi)`: Tìm lần xuất hiện đầu tiên.\n- `re.sub(mau, thay_the, chuoi)`: Tìm và thay thế.\n\n### Yêu cầu bài tập\nDùng thư viện `re`, tìm tất cả các số trong chuỗi `abc123def456` và in danh sách kết quả ra.",
         "test_cases": [
             {
                 "input": "",
@@ -306,8 +308,8 @@
     },
     {
         "id": 28,
-        "title": "Bài 28: requests (GET)",
-        "desc": "### Khái niệm\nThư viện `requests` giúp việc gửi các yêu cầu HTTP trở nên cực kỳ đơn giản. `requests.get(url)` gửi một yêu cầu GET đến một URL và trả về một đối tượng Response chứa thông tin từ máy chủ, bao gồm nội dung và trạng thái.\n\n### Ví dụ mẫu\n```python\nimport requests\nresponse = requests.get('[https://api.github.com](https://api.github.com)')\nprint(response.status_code) # In ra 200 nếu thành công\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `import requests` và sau đó in ra chuỗi `Da import requests`.",
+        "title": "Bài 28: Module requests (GET)",
+        "desc": "### Khái niệm\nThư viện `requests` (cần cài đặt) giúp việc gửi các yêu cầu HTTP trở nên cực kỳ đơn giản. Nó là công cụ tiêu chuẩn để tương tác với các API và website.\n\n### Vận dụng\n- `requests.get(url)`: Gửi yêu cầu lấy dữ liệu từ một URL.\n- `response.status_code`: Kiểm tra mã trạng thái (200 là OK, 404 là Not Found).\n- `response.json()`: Chuyển đổi nội dung trả về từ JSON thành dictionary.\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `import requests` và sau đó in ra chuỗi `Da import requests`.",
         "test_cases": [
             {
                 "input": "",
@@ -317,41 +319,41 @@
     },
     {
         "id": 29,
-        "title": "Bài 29: BeautifulSoup",
-        "desc": "### Khái niệm\n`BeautifulSoup` là một thư viện dùng để 'cào' dữ liệu (web scraping) từ các file HTML và XML. Nó tạo ra một cây phân tích cú pháp cho trang, giúp việc trích xuất dữ liệu trở nên dễ dàng.\n\n### Ví dụ mẫu\n```python\nfrom bs4 import BeautifulSoup\nhtml_doc = '<html><head><title>Trang web</title></head></html>'\nsoup = BeautifulSoup(html_doc, 'html.parser')\nprint(soup.title.text)\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `from bs4 import BeautifulSoup` và sau đó in ra chuỗi `Da import BeautifulSoup`.",
+        "title": "Bài 29: Module BeautifulSoup",
+        "desc": "### Khái niệm\n`BeautifulSoup` là một thư viện dùng để 'cào' dữ liệu (web scraping) từ các file HTML và XML. Nó tạo ra một cây phân tích cú pháp cho trang, giúp việc trích xuất dữ liệu trở nên dễ dàng.\n\n### Vận dụng\nThường được dùng kết hợp với `requests`. Bạn dùng `requests` để tải mã HTML của trang web, sau đó đưa mã HTML đó cho `BeautifulSoup` để xử lý và lấy ra các thông tin cần thiết như tiêu đề, giá sản phẩm, các đường link...\n\n### Yêu cầu bài tập\nCho một chuỗi HTML đơn giản: `html = '<h1>Đây là tiêu đề</h1>'`. Hãy dùng `BeautifulSoup` để lấy ra và in nội dung text bên trong thẻ `<h1>`.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "Da import BeautifulSoup"
+                "expected_output": "Đây là tiêu đề"
             }
         ]
     },
     {
         "id": 30,
-        "title": "Bài 30: NumPy cơ bản",
-        "desc": "### Khái niệm\n`NumPy` (Numerical Python) là thư viện nền tảng cho tính toán khoa học trong Python. Nó cung cấp một đối tượng mảng đa chiều hiệu suất cao và các công cụ để làm việc với các mảng này.\n\n### Ví dụ mẫu\n```python\nimport numpy as np\narr = np.array([10, 20, 30])\nprint(arr.sum()) # In ra 60\n```\n\n### Yêu cầu bài tập\nDùng thư viện `numpy`, tạo một mảng chứa các số `[1, 2, 3]` và in ra tổng của mảng đó.",
+        "title": "Bài 30: Module NumPy",
+        "desc": "### Khái niệm\n`NumPy` (Numerical Python) là thư viện nền tảng cho tính toán khoa học. Nó cung cấp một đối tượng mảng đa chiều hiệu suất cao và các công cụ để làm việc với các mảng này, nhanh hơn nhiều so với list thông thường.\n\n### Vận dụng\n- `np.array(list)`: Tạo một mảng NumPy.\n- `arr.sum()`: Tính tổng.\n- `arr.mean()`: Tính trung bình.\n- Các phép toán trên mảng được thực hiện trên từng phần tử.\n\n### Yêu cầu bài tập\nDùng thư viện `numpy`, tạo một mảng chứa các số `[10, 20, 30]` và in ra tổng của mảng đó.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "6"
+                "expected_output": "60"
             }
         ]
     },
     {
         "id": 31,
-        "title": "Bài 31: Pandas cơ bản",
-        "desc": "### Khái niệm\n`Pandas` là một thư viện mã nguồn mở cung cấp các cấu trúc dữ liệu và công cụ phân tích dữ liệu hiệu suất cao, dễ sử dụng. Cấu trúc dữ liệu chính là DataFrame, tương tự như một bảng tính Excel.\n\n### Ví dụ mẫu\n```python\nimport pandas as pd\ndata = {'Ten': ['An', 'Binh'], 'Tuoi': [22, 25]}\ndf = pd.DataFrame(data)\nprint(df)\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `import pandas` và sau đó in ra chuỗi `Da import pandas`.",
+        "title": "Bài 31: Module Pandas",
+        "desc": "### Khái niệm\n`Pandas` là thư viện mã nguồn mở cung cấp các cấu trúc dữ liệu và công cụ phân tích dữ liệu hiệu suất cao. Cấu trúc dữ liệu chính là `DataFrame`, tương tự như một bảng tính Excel, cho phép bạn lọc, nhóm, và phân tích dữ liệu một cách mạnh mẽ.\n\n### Yêu cầu bài tập\nTạo một DataFrame đơn giản từ dictionary `{'col1': [1, 2], 'col2': [3, 4]}`. Sau đó, in ra giá trị ở hàng 0, cột 'col2'.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "Da import pandas"
+                "expected_output": "3"
             }
         ]
     },
     {
         "id": 32,
         "title": "Bài 32: Tương tác API (POST)",
-        "desc": "### Khái niệm\nNgoài `GET` để lấy dữ liệu, `requests.post(url, json=data)` được dùng để gửi dữ liệu mới lên một máy chủ hoặc API. Dữ liệu thường được gửi ở định dạng JSON.\n\n### Ví dụ mẫu\n```python\nimport requests\nurl = '[https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)'\nnew_post = {'title': 'foo', 'body': 'bar', 'userId': 1}\nresponse = requests.post(url, json=new_post)\nprint(response.status_code) # In ra 201 nếu tạo thành công\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, hãy `import requests` và in ra chuỗi `San sang gui POST`.",
+        "desc": "### Khái niệm\nNgoài `GET` để lấy dữ liệu, `requests.post(url, json=data)` được dùng để gửi dữ liệu mới lên một máy chủ hoặc API. Dữ liệu thường được gửi ở định dạng JSON.\n\n### Vận dụng\nKhi bạn đăng ký một tài khoản mới trên website, trình duyệt sẽ gửi một yêu cầu POST chứa tên đăng nhập và mật khẩu của bạn đến server.\n\n### Yêu cầu bài tập\nĐể kiểm tra, hãy `import requests` và in ra chuỗi `San sang gui POST`.",
         "test_cases": [
             {
                 "input": "",
@@ -361,8 +363,8 @@
     },
     {
         "id": 33,
-        "title": "Bài 33: pyttsx3",
-        "desc": "### Khái niệm\n`pyttsx3` là một thư viện chuyển văn bản thành giọng nói (Text-to-Speech) hoạt động ngoại tuyến. Nó cho phép chương trình của bạn 'nói' chuyện.\n\n### Ví dụ mẫu\n```python\nimport pyttsx3\nengine = pyttsx3.init()\nengine.say('Tôi có thể nói chuyện')\nengine.runAndWait()\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `import pyttsx3` và sau đó in ra chuỗi `Da import pyttsx3`.",
+        "title": "Bài 33: Module pyttsx3",
+        "desc": "### Khái niệm\n`pyttsx3` là một thư viện chuyển văn bản thành giọng nói (Text-to-Speech) hoạt động ngoại tuyến. Nó cho phép chương trình của bạn 'nói' chuyện. Rất hữu ích cho việc tạo ra các trợ lý ảo hoặc các ứng dụng hỗ trợ người dùng.\n\n*Lưu ý quan trọng:* Ứng dụng này không thể phát âm thanh. Bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\nĐể xác nhận bạn đã hiểu về thư viện này, hãy `import pyttsx3` và sau đó in ra chuỗi `Da import pyttsx3`.",
         "test_cases": [
             {
                 "input": "",
@@ -372,8 +374,8 @@
     },
     {
         "id": 34,
-        "title": "Bài 34: pytube",
-        "desc": "### Khái niệm\n`pytube` là một thư viện nhẹ, không có sự phụ thuộc, dùng để tải video từ YouTube. Nó cho phép bạn truy cập các luồng video và âm thanh khác nhau.\n\n### Ví dụ mẫu\n```python\nfrom pytube import YouTube\nvideo_url = 'URL_CUA_VIDEO_YOUTUBE'\nYouTube(video_url).streams.first().download()\nprint('Tải xong!')\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `from pytube import YouTube` và sau đó in ra chuỗi `Da import pytube`.",
+        "title": "Bài 34: Module pytube",
+        "desc": "### Khái niệm\n`pytube` là một thư viện nhẹ, không có sự phụ thuộc, dùng để tải video từ YouTube. Nó cho phép bạn truy cập các luồng video và âm thanh khác nhau để tải về với chất lượng mong muốn.\n\n*Lưu ý quan trọng:* Việc tải video có thể tốn thời gian và băng thông. Ứng dụng này không thực hiện tải thật. Bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\nĐể xác nhận bạn đã hiểu về thư viện này, hãy `from pytube import YouTube` và sau đó in ra chuỗi `Da import pytube`.",
         "test_cases": [
             {
                 "input": "",
@@ -383,8 +385,8 @@
     },
     {
         "id": 35,
-        "title": "Bài 35: Xử lý ảnh OpenCV",
-        "desc": "### Khái niệm\n`OpenCV` (Open Source Computer Vision Library) là một thư viện khổng lồ về thị giác máy tính và học máy. Nó cung cấp hàng ngàn thuật toán để đọc, xử lý và phân tích hình ảnh và video.\n\n### Ví dụ mẫu\n```python\nimport cv2\nimg = cv2.imread('image.jpg')\ncv2.imshow('Hinh anh', img)\ncv2.waitKey(0)\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `import cv2` và sau đó in ra chuỗi `Da import cv2`.",
+        "title": "Bài 35: Module OpenCV",
+        "desc": "### Khái niệm\n`OpenCV` (tên khi import là `cv2`) là một thư viện khổng lồ về thị giác máy tính. Nó cung cấp hàng ngàn thuật toán để đọc, xử lý, nhận dạng vật thể, theo dõi chuyển động, và phân tích hình ảnh/video.\n\n*Lưu ý quan trọng:* Xử lý ảnh là một tác vụ phức tạp và thường cần hiển thị cửa sổ đồ họa. Ứng dụng này không thể làm vậy. Bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\nĐể xác nhận bạn đã hiểu về thư viện này, hãy `import cv2` và sau đó in ra chuỗi `Da import cv2`.",
         "test_cases": [
             {
                 "input": "",
@@ -394,8 +396,8 @@
     },
     {
         "id": 36,
-        "title": "Bài 36: Selenium cơ bản",
-        "desc": "### Khái niệm\n`Selenium` là một công cụ mạnh mẽ để tự động hóa các trình duyệt web. Nó thường được sử dụng cho việc kiểm thử tự động các ứng dụng web và cào dữ liệu từ các trang web động (có JavaScript).\n\n### Ví dụ mẫu\n```python\nfrom selenium import webdriver\ndriver = webdriver.Chrome()\ndriver.get('[https://www.google.com](https://www.google.com)')\nprint(driver.title)\ndriver.quit()\n```\n\n### Yêu cầu bài tập\nĐể kiểm tra, bạn hãy `from selenium import webdriver` và sau đó in ra chuỗi `Da import selenium`.",
+        "title": "Bài 36: Module Selenium",
+        "desc": "### Khái niệm\n`Selenium` là một công cụ mạnh mẽ để tự động hóa các trình duyệt web. Nó có thể tự mở Chrome/Firefox, click vào các nút, điền vào form, và lấy dữ liệu, giống hệt như một người dùng thật. Nó thường được sử dụng cho việc kiểm thử tự động và cào dữ liệu từ các trang web phức tạp.\n\n*Lưu ý quan trọng:* Selenium cần cài đặt thêm WebDriver cho trình duyệt, và sẽ mở một cửa sổ trình duyệt thật. Ứng dụng này không thể làm vậy. Bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\nĐể xác nhận bạn đã hiểu về thư viện này, hãy `from selenium import webdriver` và sau đó in ra chuỗi `Da import selenium`.",
         "test_cases": [
             {
                 "input": "",
@@ -527,22 +529,22 @@
     {
         "id": 51,
         "title": "Bài 51: Logging",
-        "desc": "### Khái niệm\nThư viện `logging` là một công cụ mạnh mẽ để ghi lại các thông điệp theo dõi từ chương trình của bạn. So với `print()`, logging cho phép bạn phân loại thông điệp theo mức độ quan trọng (DEBUG, INFO, WARNING, ERROR, CRITICAL) và dễ dàng cấu hình để ghi ra file hoặc console.\n\n### Ví dụ mẫu\n```python\nimport logging\nlogging.basicConfig(level=logging.INFO)\n\nlogging.info('Đây là một thông điệp thông tin.')\nlogging.warning('Đây là một cảnh báo.')\n```\n\n### Yêu cầu bài tập\nImport thư viện `logging` và in ra một thông điệp ở mức INFO với nội dung `Hoc logging`.",
+        "desc": "### Khái niệm\nThư viện `logging` là một công cụ mạnh mẽ để ghi lại các thông điệp theo dõi từ chương trình của bạn. So với `print()`, logging cho phép bạn phân loại thông điệp theo mức độ quan trọng (DEBUG, INFO, WARNING, ERROR, CRITICAL) và dễ dàng cấu hình để ghi ra file hoặc console.\n\n### Yêu cầu bài tập\nImport thư viện `logging`. Cấu hình cơ bản với `logging.basicConfig(level=logging.INFO)`. Sau đó, ghi lại một thông điệp ở mức INFO với nội dung `Hoc logging`. Vì `basicConfig` in ra console, hệ thống sẽ bắt được output này.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": ""
+                "expected_output": "INFO:root:Hoc logging"
             }
         ]
     },
     {
         "id": 55,
         "title": "Bài 55: Flask - Web App đầu tiên",
-        "desc": "### Khái niệm\nFlask là một micro web framework cho Python. Nó rất nhẹ và dễ bắt đầu, cho phép bạn tạo ra các ứng dụng web một cách nhanh chóng. `@app.route('/')` là một decorator để gán một URL với một hàm.\n\n### Ví dụ mẫu\n```python\n# Cần cài đặt: pip install Flask\nfrom flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef hello():\n    return 'Hello from Flask!'\n\n# Để chạy, lưu file và chạy lệnh 'flask run'\n```\n\n### Yêu cầu bài tập\nDo không thể chạy web server, bạn hãy viết code Flask để tạo một route `/test` trả về chuỗi `Flask Test Passed`. Sau đó, hãy in ra chuỗi đó để xác nhận.",
+        "desc": "### Khái niệm\nFlask là một micro web framework cho Python. Nó rất nhẹ và dễ bắt đầu, cho phép bạn tạo ra các ứng dụng web một cách nhanh chóng. `@app.route('/')` là một decorator để gán một URL với một hàm.\n\n*Lưu ý quan trọng:* Ứng dụng này không thể chạy một web server. Bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\nĐể xác nhận bạn đã hiểu về thư viện này, `from flask import Flask` và sau đó in ra chuỗi `Da import Flask`.",
         "test_cases": [
             {
                 "input": "",
-                "expected_output": "Flask Test Passed"
+                "expected_output": "Da import Flask"
             }
         ]
     },
@@ -571,7 +573,7 @@
     {
         "id": 70,
         "title": "Bài 70: Matplotlib - Vẽ đồ thị",
-        "desc": "### Khái niệm\n`Matplotlib` là thư viện vẽ đồ thị 2D phổ biến nhất của Python. Nó cung cấp một loạt các hàm để tạo ra các biểu đồ đường, cột, tròn, phân tán và nhiều hơn nữa. `plt.plot()` để vẽ, `plt.show()` để hiển thị.\n\n### Ví dụ mẫu\n```python\n# Cần cài đặt: pip install matplotlib\nimport matplotlib.pyplot as plt\n\nplt.plot([1, 2, 3], [4, 5, 1])\nplt.ylabel('Một vài con số')\nplt.show()\n```\n\n### Yêu cầu bài tập\nDo không thể hiển thị đồ thị, hãy `import matplotlib.pyplot as plt` và sau đó in ra chuỗi `Plot da duoc ve`.",
+        "desc": "### Khái niệm\n`Matplotlib` là thư viện vẽ đồ thị 2D phổ biến nhất của Python. Nó cung cấp một loạt các hàm để tạo ra các biểu đồ đường, cột, tròn, phân tán và nhiều hơn nữa.\n\n*Lưu ý quan trọng:* Ứng dụng này không thể hiển thị cửa sổ đồ họa. Bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\nĐể xác nhận bạn đã hiểu về thư viện này, `import matplotlib.pyplot as plt` và sau đó in ra chuỗi `Plot da duoc ve`.",
         "test_cases": [
             {
                 "input": "",
@@ -582,7 +584,7 @@
     {
         "id": 80,
         "title": "Bài 80: Threading",
-        "desc": "### Khái niệm\nThreading (đa luồng) cho phép chương trình của bạn thực hiện nhiều công việc 'gần như' đồng thời. Nó hữu ích cho các tác vụ bị chặn bởi I/O (như tải file, gọi API). Mỗi luồng là một chuỗi thực thi riêng biệt.\n\n### Ví dụ mẫu\n```python\nimport threading\nimport time\n\ndef worker():\n    print('Worker bắt đầu')\n    time.sleep(2)\n    print('Worker kết thúc')\n\nt = threading.Thread(target=worker)\nt.start()\nprint('Hàm main kết thúc')\n```\n\n### Yêu cầu bài tập\nImport thư viện `threading` và in ra chuỗi `Da import threading`.",
+        "desc": "### Khái niệm\nThreading (đa luồng) cho phép chương trình của bạn thực hiện nhiều công việc 'gần như' đồng thời. Nó hữu ích cho các tác vụ bị chặn bởi I/O (như tải file, gọi API). Mỗi luồng là một chuỗi thực thi riêng biệt.\n\n*Lưu ý quan trọng:* Việc kiểm tra đa luồng rất phức tạp. Bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\nImport thư viện `threading` và in ra chuỗi `Da import threading`.",
         "test_cases": [
             {
                 "input": "",
@@ -593,7 +595,7 @@
     {
         "id": 85,
         "title": "Bài 85: Asyncio",
-        "desc": "### Khái niệm\n`asyncio` là một thư viện để viết code đồng thời bằng cú pháp `async/await`. Nó đặc biệt mạnh cho các ứng dụng có số lượng lớn kết nối I/O (như web server, bot). `async def` định nghĩa một coroutine, và `await` tạm dừng nó để chạy các tác vụ khác.\n\n### Ví dụ mẫu\n```python\nimport asyncio\n\nasync def main():\n    print('hello')\n    await asyncio.sleep(1)\n    print('world')\n\nasyncio.run(main())\n```\n\n### Yêu cầu bài tập\nImport thư viện `asyncio` và in ra chuỗi `Da import asyncio`.",
+        "desc": "### Khái niệm\n`asyncio` là một thư viện để viết code đồng thời bằng cú pháp `async/await`. Nó đặc biệt mạnh cho các ứng dụng có số lượng lớn kết nối I/O (như web server, bot). `async def` định nghĩa một coroutine, và `await` tạm dừng nó để chạy các tác vụ khác.\n\n*Lưu ý quan trọng:* Giống như threading, kiểm tra code bất đồng bộ rất phức tạp. Bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\nImport thư viện `asyncio` và in ra chuỗi `Da import asyncio`.",
         "test_cases": [
             {
                 "input": "",
@@ -604,7 +606,7 @@
     {
         "id": 90,
         "title": "Bài 90: Scikit-learn",
-        "desc": "### Khái niệm\n`Scikit-learn` là thư viện học máy (Machine Learning) hàng đầu cho Python. Nó cung cấp các công cụ đơn giản và hiệu quả cho việc khai phá và phân tích dữ liệu, được xây dựng trên NumPy, SciPy, và matplotlib.\n\n### Ví dụ mẫu\n```python\n# Cần cài đặt: pip install scikit-learn\nfrom sklearn.linear_model import LinearRegression\n\nmodel = LinearRegression()\n# Huấn luyện model với dữ liệu...\n```\n\n### Yêu cầu bài tập\n`from sklearn.model_selection import train_test_split` và in ra chuỗi `Da import scikit-learn`.",
+        "desc": "### Khái niệm\n`Scikit-learn` là thư viện học máy (Machine Learning) hàng đầu cho Python. Nó cung cấp các công cụ đơn giản và hiệu quả cho việc khai phá và phân tích dữ liệu, được xây dựng trên NumPy, SciPy, và matplotlib.\n\n*Lưu ý quan trọng:* Học máy là một lĩnh vực lớn và phức tạp. Bài tập chỉ mang tính giới thiệu.\n\n### Yêu cầu bài tập\n`from sklearn.model_selection import train_test_split` và in ra chuỗi `Da import scikit-learn`.",
         "test_cases": [
             {
                 "input": "",
@@ -623,4 +625,5 @@
             }
         ]
     }
-]
+  ]
+}
