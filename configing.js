@@ -1,6 +1,6 @@
 {
   "version": 1.3,
-  "is_mandatory": false,
+  "is_mandatory": True,
   "changelog": [
     "Thời gian Mùa giải giảm còn 60 ngày.",
     "Tăng điểm thưởng cho Thử thách cuối tuần lên 175 điểm.",
@@ -29,7 +29,7 @@
   },
   "settings": {
     "season_duration_days": 90,
-    "weekend_attempts": 3,
+    "weekend_attempts": 0,
     "advanced_lesson_threshold": 15
   },
   "ui_text": {
