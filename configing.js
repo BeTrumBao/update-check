@@ -1,5 +1,6 @@
 {
-  "version": 1.1,
+  "version": 1.3,
+  "is_mandatory": true
   "changelog": [
     "Thời gian Mùa giải giảm còn 60 ngày.",
     "Tăng điểm thưởng cho Thử thách cuối tuần lên 175 điểm.",
