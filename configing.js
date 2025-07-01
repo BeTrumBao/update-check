@@ -1,9 +1,9 @@
 {
   "version": 1.3,
-  "is_mandatory": True,
+  "is_mandatory": true,
   "changelog": [
-    "Thời gian Mùa giải giảm còn 60 ngày.",
-    "Tăng điểm thưởng cho Thử thách cuối tuần lên 175 điểm.",
+    "Thử Thách Cuối Tuần Tạm Thời Đang Bị Tắt Vì Một Số Lý Do Ngoài Ý Muốn",
+    "Rank Đã Đc Giảm Xuống Còn 20 Ngày",
     "Thêm hạng mới: Tinh Anh."
   ],
   "app_config": {
@@ -52,13 +52,14 @@
     }
   },
   "rank_data": [
-    { "name": "Tân Binh", "icon": "🌱", "base_score": 0, "tier_span": 50, "subdivisions": 2, "lessons_required": 0 },
-    { "name": "Học Việc", "icon": "🌿", "base_score": 50, "tier_span": 70, "subdivisions": 3, "lessons_required": 5 },
+    { "name": "Tân Binh", "icon": "🌱", "base_score": 0, "tier_span": 50, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Học Việc", "icon": "🌿", "base_score": 50, "tier_span": 70, "subdivisions": 5, "lessons_required": 5 },
     { "name": "Lập Trình Viên", "icon": "💻", "base_score": 120, "tier_span": 130, "subdivisions": 5, "lessons_required": 25 },
     { "name": "Kỹ Sư", "icon": "🛠️", "base_score": 250, "tier_span": 200, "subdivisions": 5, "lessons_required": 40 },
     { "name": "Chuyên Gia", "icon": "💡", "base_score": 450, "tier_span": 300, "subdivisions": 5, "lessons_required": 55 },
     { "name": "Bậc Thầy", "icon": "🏆", "base_score": 750, "tier_span": 450, "subdivisions": 5, "lessons_required": 70 },
     { "name": "Đại Sư", "icon": "👑", "base_score": 1200, "tier_span": 600, "subdivisions": 5, "lessons_required": 85 },
+    { "name": "Tinh Anh", "icon": "💎", "base_score": 1200, "tier_span": 900, "subdivisions": 5, "lessons_required": 95 },
     { "name": "Huyền Thoại", "icon": "🌌", "base_score": 2600, "tier_span": 1000, "subdivisions": 5, "lessons_required": 100 }
   ]
 }
