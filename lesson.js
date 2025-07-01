@@ -1,5 +1,11 @@
 {
   "version": 3.1,
+  "changelog": [
+    "Thêm 5 bài học mới về Lập trình hướng đối tượng nâng cao.",
+    "Sửa lỗi chính tả ở Bài 15.",
+    "Tăng độ khó cho Thử thách cuối tuần.",
+    "Cân bằng lại điểm số cho các bài tập dự án."
+  ],
   "lessons": [
     {
         "id": 1, "difficulty": 1,
