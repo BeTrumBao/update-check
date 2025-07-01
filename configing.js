@@ -6,6 +6,12 @@
     "Rank Đã Đc Giảm Xuống Còn 20 Ngày",
     "Thêm hạng mới: Tinh Anh."
   ],
+  "feature_flags": {
+    "maintenance_mode": true,
+    "maintenance_message": "Hệ thống đang bảo trì để chuẩn bị cho sự kiện lớn. Vui lòng quay lại sau!",
+    "enable_weekend_challenge": false,
+    "enable_ranking_matches": false
+  },
   "app_config": {
     "window_title": "Học Python Vui Vẻ - Con Đường Chinh Phục Grandmaster",
     "window_size": [1100, 750],
