@@ -7,7 +7,7 @@
     "Thêm hạng mới: Tinh Anh."
   ],
   "feature_flags": {
-    "maintenance_mode": true,
+    "maintenance_mode": false,
     "maintenance_message": "Hệ thống đang bảo trì để chuẩn bị cho sự kiện lớn. Vui lòng quay lại sau!",
     "enable_weekend_challenge": false,
     "enable_ranking_matches": false
