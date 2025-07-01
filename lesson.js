@@ -1,5 +1,5 @@
 {
-  "version": 3.1,
+  "version": 3.2,
   "changelog": [
     "Thêm 5 bài học mới về Lập trình hướng đối tượng nâng cao.",
     "Sửa lỗi chính tả ở Bài 15.",
