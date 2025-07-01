@@ -28,7 +28,7 @@
     "challenge_fail_title": "❌ Kết quả sai!"
   },
   "settings": {
-    "season_duration_days": 90,
+    "season_duration_days": 20,
     "weekend_attempts": 0,
     "advanced_lesson_threshold": 15
   },
