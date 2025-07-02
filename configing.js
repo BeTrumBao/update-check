@@ -11,14 +11,15 @@
     "maintenance_message": "Hệ thống đang bảo trì để chuẩn bị cho sự kiện lớn. Vui lòng quay lại sau!",
     "enable_weekend_challenge": false,
     "enable_ranking_matches": false,
-     
-    "rank_maintenance_mode": true, 
+    "rank_maintenance_mode": true,
     "rank_maintenance_message": "Hệ thống xếp hạng đang được bảo trì để chuẩn bị cho mùa giải mới. Bạn có thể quay lại sau."
-  },
   },
   "app_config": {
     "window_title": "Học Python Vui Vẻ - Con Đường Chinh Phục Grandmaster",
-    "window_size": [1100, 750],
+    "window_size": [
+      1100,
+      750
+    ],
     "pulse_timer_interval": 800,
     "score_animation_duration": 400
   },
@@ -56,9 +57,9 @@
       "rules_content_html": "<ul style=\"line-height: 160%; font-size: 14px;\"><li><b>Hoàn thành bài học:</b> Bạn cần hoàn thành đủ số lượng bài học yêu cầu để có thể thăng lên các hạng cao.</li><li><b>Chế độ Xếp hạng:</b> Chỉ có các thử thách trong tab \"Xếp hạng & Thi đấu\" mới cộng/trừ điểm rank.</li><li><b>Luyện tập:</b> Tab \"Luyện tập\" dùng để ôn bài và không ảnh hưởng đến điểm số.</li><li><b>Phạt thoát trận:</b> Thoát thử thách xếp hạng giữa chừng sẽ bị trừ 15 điểm.</li><li><b>Mùa giải:</b> Mỗi mùa giải kéo dài 90 ngày. Khi mùa giải mới bắt đầu, điểm của bạn sẽ được reset.</li></ul>"
     },
     "rank_up_dialog": {
-        "main_title": "🎉 CHÚC MỪNG THĂNG HẠNG! 🎉",
-        "body_text": "BẠN ĐÃ ĐẠT ĐƯỢC HẠNG MỚI!",
-        "button_text": "Tuyệt vời!"
+      "main_title": "🎉 CHÚC MỪNG THĂNG HẠNG! 🎉",
+      "body_text": "BẠN ĐÃ ĐẠT ĐƯỢC HẠNG MỚI!",
+      "button_text": "Tuyệt vời!"
     }
   },
   "rank_data": [
@@ -69,7 +70,7 @@
     { "name": "Chuyên Gia", "icon": "💡", "base_score": 450, "tier_span": 300, "subdivisions": 5, "lessons_required": 55 },
     { "name": "Bậc Thầy", "icon": "🏆", "base_score": 750, "tier_span": 450, "subdivisions": 5, "lessons_required": 70 },
     { "name": "Đại Sư", "icon": "👑", "base_score": 1200, "tier_span": 600, "subdivisions": 5, "lessons_required": 85 },
-    { "name": "Tinh Anh", "icon": "💎", "base_score": 1200, "tier_span": 900, "subdivisions": 5, "lessons_required": 95 },
+    { "name": "Tinh Anh", "icon": "💎", "base_score": 1800, "tier_span": 800, "subdivisions": 5, "lessons_required": 95 },
     { "name": "Huyền Thoại", "icon": "🌌", "base_score": 2600, "tier_span": 1000, "subdivisions": 5, "lessons_required": 100 }
   ]
 }
