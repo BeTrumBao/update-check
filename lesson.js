@@ -1,10 +1,7 @@
 {
-  "version": 3.2,
+  "version": 3.5,
   "changelog": [
-    "Thêm 5 bài học mới về Lập trình hướng đối tượng nâng cao.",
-    "Sửa lỗi chính tả ở Bài 15.",
-    "Tăng độ khó cho Thử thách cuối tuần.",
-    "Cân bằng lại điểm số cho các bài tập dự án."
+     "Thêm Ghi Chú"
   ],
   "lessons": [
     {
@@ -34,7 +31,7 @@
     {
         "id": 5, "difficulty": 1,
         "title": "Bài 5: Vòng lặp for",
-        "desc": "### Khái niệm\nVòng lặp `for` được sử dụng để lặp qua một chuỗi các phần tử (như danh sách, hoặc một dãy số). Hàm `range(n)` tạo ra một dãy số từ 0 đến n-1.\n\n### Ví dụ mẫu\n```python\n# In các số từ 0 đến 2\nfor i in range(3):\n    print('Số:', i)\n```\n\n### Yêu cầu bài tập\nDùng vòng lặp `for` và hàm `range(5)` để in ra các số từ 0 đến 4, mỗi số trên một dòng.",
+        "desc": "### Khái niệm\nVòng lặp `for` được sử dụng để lặp qua một chuỗi các phần tử (như danh sách, hoặc một dãy số). Hàm `range(n)` tạo ra một dãy số từ 0 đến n-1.\n\n### Ví dụ mẫu\n```python\n# In các số từ 0 đến 2\nfor i in range(3):\n    print('Số:', i)\n```\n\n### Yêu cầu bài tập\nDùng vòng lặp `for` và hàm `range(5)` để in ra các số từ 0 đến 4, mỗi số trên một dòng , nhớ ấn phím [Tab] 1 cái hoặc ấn phím cách 4 lần nhaaa.",
         "test_cases": [ { "input": "", "expected_output": "0\n1\n2\n3\n4" } ]
     },
     {
