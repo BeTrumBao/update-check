@@ -10,7 +10,7 @@
     "maintenance_mode": false,
     "maintenance_message": "Hệ thống đang bảo trì để chuẩn bị cho sự kiện lớn. Vui lòng quay lại sau!",
     "enable_weekend_challenge": false,
-    "enable_ranking_matches": false
+    "enable_ranking_matches": false,
      
     "rank_maintenance_mode": true, 
     "rank_maintenance_message": "Hệ thống xếp hạng đang được bảo trì để chuẩn bị cho mùa giải mới. Bạn có thể quay lại sau."
