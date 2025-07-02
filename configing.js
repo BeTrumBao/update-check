@@ -1,6 +1,6 @@
 {
   "version": 1.3,
-  "is_mandatory": true,
+  "is_mandatory": false,
   "changelog": [
     "Thử Thách Cuối Tuần Tạm Thời Đang Bị Tắt Vì Một Số Lý Do Ngoài Ý Muốn",
     "Rank Đã Đc Giảm Xuống Còn 20 Ngày",
