@@ -6,8 +6,8 @@
     "Rank Đã Được Phân Chia Công Bằng"
   ],
   "feature_flags": {
-    "maintenance_mode": false,
-    "maintenance_message": "Hệ thống đang bảo trì để chuẩn bị cho sự kiện lớn. Vui lòng quay lại sau!",
+    "maintenance_mode": true,
+    "maintenance_message": "Hệ thống đang bảo trì để fix lỗi trong cơ sở dữ liệu bài học . Tạm thời bạn sẽ không vô đc và thời gian dự kiến xong là từ 23g - 6g (UTC+7) Mong bạn thông cảm ạ ☺️",
     "enable_weekend_challenge": false,
     "enable_ranking_matches": false,
     "rank_maintenance_mode": false,
