@@ -10,7 +10,7 @@
     "maintenance_message": "Hệ thống đang bảo trì để nâng cấp lên phiên bản mới. Tạm thời bạn sẽ không vô được app và thời gian dự kiến xong là từ 23g - 6g (UTC+7) Mong bạn thông cảm ạ ☺️",
     "enable_weekend_challenge": false,
     "enable_ranking_matches": false,
-    "rank_maintenance_mode": true,
+    "rank_maintenance_mode": false,
     "rank_maintenance_message": "Hệ thống xếp hạng đang được bảo trì để chuẩn bị cho mùa giải mới. Bạn có thể quay lại sau."
   },
   "app_config": {
