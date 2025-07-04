@@ -62,19 +62,19 @@
     }
   },
    "season_names": {
-    "1": "Khởi Nguyên Công Nghệ",
+    "1": "Kỷ Nguyên Công Nghệ",
     "2": "Bão Tố Sa Mạc",
     "3": "Kỷ Băng Hà",
     "4": "Thời Đại Công Nghệ"
   },
   "rank_data": [
     { "name": "Đồng", "icon": "🥉", "base_score": 0, "tier_span": 50, "subdivisions": 5, "lessons_required": 0 },
-    { "name": "Bạc", "icon": "🥈", "base_score": 50, "tier_span": 70, "subdivisions": 5, "lessons_required": 5 },
-    { "name": "Vàng", "icon": "🏅", "base_score": 120, "tier_span": 130, "subdivisions": 5, "lessons_required": 25 },
-    { "name": "Bạch Kim", "icon": "💎", "base_score": 250, "tier_span": 200, "subdivisions": 5, "lessons_required": 40 },
-    { "name": "Sao Băng", "icon": "⭐", "base_score": 450, "tier_span": 300, "subdivisions": 5, "lessons_required": 55 },
-    { "name": "Ngôi Sao", "icon": "🎖️", "base_score": 750, "tier_span": 450, "subdivisions": 5, "lessons_required": 70 },
-    { "name": "Siêu Đẳng", "icon": "✨", "base_score": 1200, "tier_span": 600, "subdivisions": 5, "lessons_required": 95 },
-    { "name": "Huyền Thoại", "icon": "🏆", "base_score": 1800, "tier_span": 3600, "subdivisions": 5, "lessons_required": 100 }
+    { "name": "Bạc", "icon": "🥈", "base_score": 50, "tier_span": 70, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Vàng", "icon": "🏅", "base_score": 120, "tier_span": 130, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Bạch Kim", "icon": "💎", "base_score": 250, "tier_span": 200, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Sao Băng", "icon": "⭐", "base_score": 450, "tier_span": 300, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Ngôi Sao", "icon": "🎖️", "base_score": 750, "tier_span": 450, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Siêu Đẳng", "icon": "✨", "base_score": 1200, "tier_span": 600, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Huyền Thoại", "icon": "🏆", "base_score": 1800, "tier_span": 3600, "subdivisions": 5, "lessons_required": 0 }
   ]
 }
