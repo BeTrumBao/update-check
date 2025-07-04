@@ -67,6 +67,13 @@
     "3": "Kỷ Băng Hà",
     "4": "Thời Đại Công Nghệ"
   },
+   "ultimate_rank_data": [
+    { "name": "Tiên Phong", "icon": "⚔️", "base_score": 0 },
+    { "name": "Siêu Việt", "icon": "🛡️", "base_score": 500 },
+    { "name": "Tối Thượng", "icon": "👑", "base_score": 1200 },
+    { "name": "Vô Song", "icon": "🌟", "base_score": 2500 },
+    { "name": "Truyền Thuyết", "icon": "🔥", "base_score": 5000 }
+  ],
   "rank_data": [
     { "name": "Đồng", "icon": "🥉", "base_score": 0, "tier_span": 50, "subdivisions": 5, "lessons_required": 0 },
     { "name": "Bạc", "icon": "🥈", "base_score": 50, "tier_span": 70, "subdivisions": 5, "lessons_required": 0 },
