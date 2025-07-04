@@ -14,7 +14,7 @@
     "rank_maintenance_message": "Hệ thống xếp hạng đang được bảo trì để chuẩn bị cho mùa giải mới. Bạn có thể quay lại sau."
   },
   "app_config": {
-    "window_title": "Học Python Vui Vẻ - Con Đường Chinh Phục Grandmaster",
+    "window_title": "VarPy- Con Đường Chinh Phục Python",
     "window_size": [
       1100,
       750
@@ -45,7 +45,7 @@
   "ui_text": {
     "tabs": {
       "lessons": "📘 KHÓA HỌC",
-      "practice": "🎯 LUYỆN TẬP (KHÔNG RANK)",
+      "practice": "🎯 LUYỆN TẬP",
       "ranking": "🏅 XẾP HẠNG & THI ĐẤU"
     },
     "info_dialog": {
@@ -75,13 +75,13 @@
     { "name": "Truyền Thuyết", "icon": "🔥", "base_score": 5000 }
   ],
   "rank_data": [
-    { "name": "Đồng", "icon": "🥉", "base_score": 0, "tier_span": 50, "subdivisions": 5, "lessons_required": 0 },
-    { "name": "Bạc", "icon": "🥈", "base_score": 50, "tier_span": 70, "subdivisions": 5, "lessons_required": 0 },
-    { "name": "Vàng", "icon": "🏅", "base_score": 120, "tier_span": 130, "subdivisions": 5, "lessons_required": 0 },
-    { "name": "Bạch Kim", "icon": "💎", "base_score": 250, "tier_span": 200, "subdivisions": 5, "lessons_required": 0 },
-    { "name": "Sao Băng", "icon": "⭐", "base_score": 450, "tier_span": 300, "subdivisions": 5, "lessons_required": 0 },
-    { "name": "Ngôi Sao", "icon": "🎖️", "base_score": 750, "tier_span": 450, "subdivisions": 5, "lessons_required": 0 },
-    { "name": "Siêu Đẳng", "icon": "✨", "base_score": 1200, "tier_span": 600, "subdivisions": 5, "lessons_required": 0 },
-    { "name": "Huyền Thoại", "icon": "🏆", "base_score": 1800, "tier_span": 3600, "subdivisions": 5, "lessons_required": 0 }
+    { "name": "Đồng", "icon": "🥉", "base_score": 0, "tier_span": 50, "subdivisions": 5, "lessons_required": 5 },
+    { "name": "Bạc", "icon": "🥈", "base_score": 50, "tier_span": 70, "subdivisions": 5, "lessons_required": 10 },
+    { "name": "Vàng", "icon": "🏅", "base_score": 120, "tier_span": 130, "subdivisions": 5, "lessons_required": 15 },
+    { "name": "Bạch Kim", "icon": "💎", "base_score": 250, "tier_span": 200, "subdivisions": 5, "lessons_required": 30 },
+    { "name": "Sao Băng", "icon": "⭐", "base_score": 450, "tier_span": 300, "subdivisions": 5, "lessons_required": 40 },
+    { "name": "Ngôi Sao", "icon": "🎖️", "base_score": 750, "tier_span": 450, "subdivisions": 5, "lessons_required": 45},
+    { "name": "Siêu Đẳng", "icon": "✨", "base_score": 1200, "tier_span": 600, "subdivisions": 5, "lessons_required": 80 },
+    { "name": "Huyền Thoại", "icon": "🏆", "base_score": 1800, "tier_span": 3600, "subdivisions": 3, "lessons_required": 100 }
   ]
 }
