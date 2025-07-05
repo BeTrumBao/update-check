@@ -75,14 +75,14 @@
     { "name": "Truyền Thuyết", "icon": "🔥", "base_score": 5000 }
   ],
   "rank_data": [
-    { "name": "Đồng", "icon": "🥉", "base_score": 0, "tier_span": 50, "subdivisions": 5, "lessons_required": 5 },
-    { "name": "Bạc", "icon": "🥈", "base_score": 50, "tier_span": 70, "subdivisions": 5, "lessons_required": 10 },
-    { "name": "Vàng", "icon": "🏅", "base_score": 120, "tier_span": 130, "subdivisions": 5, "lessons_required": 15 },
-    { "name": "Bạch Kim", "icon": "💎", "base_score": 250, "tier_span": 200, "subdivisions": 5, "lessons_required": 30 },
-    { "name": "Sao Băng", "icon": "⭐", "base_score": 450, "tier_span": 300, "subdivisions": 5, "lessons_required": 40 },
-    { "name": "Ngôi Sao", "icon": "🎖️", "base_score": 750, "tier_span": 450, "subdivisions": 5, "lessons_required": 45},
-    { "name": "Siêu Đẳng", "icon": "✨", "base_score": 1200, "tier_span": 600, "subdivisions": 5, "lessons_required": 80 },
-    { "name": "Huyền Thoại", "icon": "🏆", "base_score": 1800, "tier_span": 3600, "subdivisions": 3, "lessons_required": 100,  "cosmetics": {
+    { "name": "Đồng", "icon": "🥉", "base_score": 0, "tier_span": 50, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Bạc", "icon": "🥈", "base_score": 50, "tier_span": 70, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Vàng", "icon": "🏅", "base_score": 120, "tier_span": 130, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Bạch Kim", "icon": "💎", "base_score": 250, "tier_span": 200, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Sao Băng", "icon": "⭐", "base_score": 450, "tier_span": 300, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Ngôi Sao", "icon": "🎖️", "base_score": 750, "tier_span": 450, "subdivisions": 5, "lessons_required": 0},
+    { "name": "Siêu Đẳng", "icon": "✨", "base_score": 1200, "tier_span": 600, "subdivisions": 5, "lessons_required": 0 },
+    { "name": "Huyền Thoại", "icon": "🏆", "base_score": 1800, "tier_span": 3600, "subdivisions": 3, "lessons_required": 0,  "cosmetics": {
         "name_color": "#E74C3C",
         "profile_effect": "legendary_glow" 
       } }
