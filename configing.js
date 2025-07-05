@@ -84,7 +84,7 @@
     { "name": "Siêu Đẳng", "icon": "✨", "base_score": 1200, "tier_span": 600, "subdivisions": 5, "lessons_required": 0 },
     { "name": "Huyền Thoại", "icon": "🏆", "base_score": 1800, "tier_span": 3600, "subdivisions": 3, "lessons_required": 0,  "cosmetics": {
         "name_color": "#E74C3C",
-        "profile_effect": "legendary_glow" 
+        "profile_effect": "legendary_glow" ,
         "high_rank_marker_color": "#FFD700"
       } }
   ]
