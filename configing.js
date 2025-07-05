@@ -82,6 +82,9 @@
     { "name": "Sao Băng", "icon": "⭐", "base_score": 450, "tier_span": 300, "subdivisions": 5, "lessons_required": 40 },
     { "name": "Ngôi Sao", "icon": "🎖️", "base_score": 750, "tier_span": 450, "subdivisions": 5, "lessons_required": 45},
     { "name": "Siêu Đẳng", "icon": "✨", "base_score": 1200, "tier_span": 600, "subdivisions": 5, "lessons_required": 80 },
-    { "name": "Huyền Thoại", "icon": "🏆", "base_score": 1800, "tier_span": 3600, "subdivisions": 3, "lessons_required": 100 }
+    { "name": "Huyền Thoại", "icon": "🏆", "base_score": 1800, "tier_span": 3600, "subdivisions": 3, "lessons_required": 100,  "cosmetics": {
+        "name_color": "#E74C3C",
+        "profile_effect": "legendary_glow" 
+      } }
   ]
 }
