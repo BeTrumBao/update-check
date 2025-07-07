@@ -13,6 +13,13 @@
     "rank_maintenance_mode": false,
     "rank_maintenance_message": "Hệ thống xếp hạng đang được bảo trì để chuẩn bị cho mùa giải mới. Bạn có thể quay lại sau."
   },
+  {
+  "popup_id": "summer_event_2025_promo",
+  "is_active": true,
+  "title": "🎉 Thông báo Sự kiện Hè!",
+  "content_markdown": "Chào mừng bạn đến với sự kiện mùa hè sôi động!\n\n- **x2 Mã Kìm** vào mỗi cuối tuần.\n- Các vật phẩm trang trí mới trong Cửa hàng.\n\n*Đừng bỏ lỡ nhé!*",
+  "snooze_days": 3
+  },  
   "app_config": {
     "window_title": "VarPy - Con Đường Chinh Phục Python",
     "window_size": [
