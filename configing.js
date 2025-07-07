@@ -13,13 +13,13 @@
     "rank_maintenance_mode": false,
     "rank_maintenance_message": "Hệ thống xếp hạng đang được bảo trì để chuẩn bị cho mùa giải mới. Bạn có thể quay lại sau."
   },
-  {
-  "popup_id": "summer_event_2025_promo",
-  "is_active": true,
-  "title": "🎉 Thông báo Sự kiện Hè!",
-  "content_markdown": "Chào mừng bạn đến với sự kiện mùa hè sôi động!\n\n- **x2 Mã Kìm** vào mỗi cuối tuần.\n- Các vật phẩm trang trí mới trong Cửa hàng.\n\n*Đừng bỏ lỡ nhé!*",
-  "snooze_days": 3
-  },  
+  "popup_config": {
+    "popup_id": "summer_event_2025_promo",
+    "is_active": true,
+    "title": "🎉 Thông báo Sự kiện Hè!",
+    "content_markdown": "Chào mừng bạn đến với sự kiện mùa hè sôi động!\n\n- **x2 Mã Kìm** vào mỗi cuối tuần.\n- Các vật phẩm trang trí mới trong Cửa hàng.\n\n*Đừng bỏ lỡ nhé!*",
+    "snooze_days": 3
+  },
   "app_config": {
     "window_title": "VarPy - Con Đường Chinh Phục Python",
     "window_size": [
@@ -63,18 +63,18 @@
       "rules_content_html": "<ul style=\"line-height: 160%; font-size: 14px;\"><li><b>Hoàn thành bài học:</b> Bạn cần hoàn thành đủ số lượng bài học yêu cầu để có thể thăng lên các hạng cao.</li><li><b>Chế độ Xếp hạng:</b> Chỉ có các thử thách trong tab \"Xếp hạng & Thi đấu\" mới cộng/trừ điểm rank.</li><li><b>Luyện tập:</b> Tab \"Luyện tập\" dùng để ôn bài và không ảnh hưởng đến điểm số.</li><li><b>Phạt thoát trận:</b> Thoát thử thách xếp hạng giữa chừng sẽ bị trừ 15 điểm.</li><li><b>Mùa giải:</b> Mỗi mùa giải kéo dài 90 ngày. Khi mùa giải mới bắt đầu, điểm của bạn sẽ được reset.</li></ul>"
     },
     "rank_up_dialog": {
-      "main_title": "🎉 CHÚC MỪNG THĂNG HẠNG! 🎉",
+      "main_title": "🎉 CHÚC MỪNG THĂNG HẠNG! �",
       "body_text": "BẠN ĐÃ ĐẠT ĐƯỢC HẠNG MỚI!",
       "button_text": "Tuyệt vời!"
     }
   },
-   "season_names": {
+  "season_names": {
     "1": "Kỷ Nguyên Công Nghệ",
     "2": "Bão Tố Sa Mạc",
     "3": "Kỷ Băng Hà",
     "4": "Thời Đại Công Nghệ"
   },
-   "ultimate_rank_data": [
+  "ultimate_rank_data": [
     { "name": "Tiên Phong", "icon": "⚔️", "base_score": 0 },
     { "name": "Siêu Việt", "icon": "🛡️", "base_score": 500 },
     { "name": "Tối Thượng", "icon": "👑", "base_score": 1200 },
