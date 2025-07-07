@@ -15,9 +15,9 @@
   },
   "remote_popup": {
     "enabled": true,
-    "id": "chao_mung_thang_7_2025",
+    "id": "chao_mung_thang_7",
     "title": "🎉 Thông báo quan trọng tháng 7! 🎉",
-    "content_markdown": "Chào mừng bạn đã quay trở lại!\n\nTrong tháng này chúng tôi có các cập nhật sau:\n\n* **Ra mắt** tính năng Solo vs Bot.\n* **Tăng** phần thưởng cuối tuần.\n* Sự kiện **nhân đôi điểm** sẽ sớm diễn ra!\n\nChúc bạn học tập vui vẻ!",
+    "content_markdown": "Chào mừng bạn đã quay trở lại!\n\nTrong tháng này chúng tôi có các cập nhật sau:\n\nRa mắt hệ thống hiệu ứng bậc.\n* **Tăng** phần thưởng cuối tuần.\n* Sự kiện **nhân đôi điểm** sẽ sớm diễn ra!\n\nChúc bạn học tập vui vẻ!",
     "cool_down_days": 3
   },
   "app_config": {
