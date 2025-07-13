@@ -15,7 +15,7 @@
   },
   "remote_popup": {
     "enabled": true,
-    "id": "chao_mung_thang_7",
+    "id": "cap_nhat_tieu_chuan_cong_dong",
     "title": "Thông Báo : Cập Nhật Khung Hình Phạt Và Tiêu Chuẩn Cộng Đồng ",
     "content_markdown": "Từ những ý kiên góp ý của bạn . Chúng tôi đã cập nhật Khung hình phạt và tiêu chuẩn cộng đồng giúp môi trường thêm tính công bằng hơn!\n\nCảm ơn bạn đã góp ý cho bộ luật của cộng đônhg \n\nChúc bạn học tập vui vẻ!",
     "cool_down_days": 3
