@@ -16,8 +16,8 @@
   "remote_popup": {
     "enabled": true,
     "id": "chao_mung_thang_7",
-    "title": "🎉 Thông báo quan trọng tháng 7! 🎉",
-    "content_markdown": "Chào mừng bạn đã quay trở lại!\n\nTrong tháng này chúng tôi có các cập nhật sau:\n\nRa mắt hệ thống hiệu ứng bậc.\n* **Tăng** phần thưởng cuối tuần.\n* Sự kiện **nhân đôi điểm** sẽ sớm diễn ra!\n\nChúc bạn học tập vui vẻ!",
+    "title": "Thông Báo : Cập Nhật Khung Hình Phạt Và Tiêu Chuẩn Cộng Đồng ",
+    "content_markdown": "Từ những ý kiên góp ý của bạn . Chúng tôi đã cập nhật Khung hình phạt và tiêu chuẩn cộng đồng giúp môi trường thêm tính công bằng hơn!\n\nCảm ơn bạn đã góp ý cho bộ luật của cộng đônhg \n\nChúc bạn học tập vui vẻ!",
     "cool_down_days": 3
   },
   "app_config": {
