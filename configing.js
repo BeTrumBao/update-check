@@ -15,9 +15,9 @@
   },
   "remote_popup": {
     "enabled": true,
-    "id": "cap_nhat_tieu_chuan_cong_dong",
-    "title": "Thông Báo : Cập Nhật Khung Hình Phạt Và Tiêu Chuẩn Cộng Đồng ",
-    "content_markdown": "Từ những ý kiên góp ý của bạn . Chúng tôi đã cập nhật Khung hình phạt và tiêu chuẩn cộng đồng giúp môi trường thêm tính công bằng hơn!\n\nCảm ơn bạn đã góp ý cho bộ luật của cộng đônhg \n\nChúc bạn học tập vui vẻ!",
+    "id": "bao_tri_bxh",
+    "title": "Bảo Trì Bảng Xếp Hạng",
+    "content_markdown": "BĐH đã nhận được lỗi liên quan đến bảng xếp hạng. Hiện tại thì bạn không thể leo rank và làm các tác vụ liên quan đến tab rank . BĐH sẽ cố gắng khắc phục nhanh nhất có thể !\n\nCảm ơn bạn đã thông cảm !",
     "cool_down_days": 3
   },
   "app_config": {
