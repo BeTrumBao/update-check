@@ -20,7 +20,7 @@
       "target_url": ""
     },
     "luyen_tap": {
-      "enabled": true,
+      "enabled": false,
       "image_url": "https://i.imgur.com/your_image_link_for_practice_tab.png",
       "target_url": ""
     }
