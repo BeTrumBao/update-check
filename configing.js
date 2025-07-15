@@ -13,6 +13,18 @@
     "rank_maintenance_mode": false,
     "rank_maintenance_message": "Hệ thống xếp hạng đang được bảo trì để chuẩn bị cho mùa giải mới. Bạn có thể quay lại sau."
   },
+  "banners": {
+    "khoa_hoc": {
+      "enabled": true,
+      "image_url": "https://hoseiki.vn/wp-content/uploads/2025/03/anh-anime-cute-11.jpg",
+      "target_url": ""
+    },
+    "luyen_tap": {
+      "enabled": true,
+      "image_url": "https://i.imgur.com/your_image_link_for_practice_tab.png",
+      "target_url": ""
+    }
+  },
   "remote_popup": {
     "enabled": true,
     "id": "bao_tri_bxh",
