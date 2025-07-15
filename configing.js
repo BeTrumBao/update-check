@@ -15,8 +15,8 @@
   },
    "global_banner": {
     "enabled": true,
-    "image_url": "https://ktcc.edu.vn/wp-content/uploads/2025/03/Nen-Trang.jpg",
-    "target_url": "https://hoseiki.vn/wp-content/uploads/2025/03/anh-anime-cute-11.jpg"
+    "image_url": "https://betrumbao.github.io/update-check/1.png",
+    "target_url": "https://betrumbao.github.io/update-check/1.png"
   },
   "remote_popup": {
     "enabled": true,
