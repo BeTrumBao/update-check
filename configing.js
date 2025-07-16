@@ -14,7 +14,7 @@
     "rank_maintenance_message": "Hệ thống xếp hạng đang được bảo trì để chuẩn bị cho mùa giải mới. Bạn có thể quay lại sau."
   },
    "global_banner": {
-    "enabled": true,
+    "enabled": false,
     "image_url": "https://betrumbao.github.io/update-check/1.png",
     "target_url": "https://betrumbao.github.io/update-check/1.png"
   },
