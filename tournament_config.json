@@ -1,0 +1,23 @@
+{
+  "tournament_id": "VNC_S1_2025",
+  "season_name": "Khai Mở Kỷ Nguyên",
+  "status": "REGISTRATION_OPEN",
+  "timeline": {
+    "registration_open": "2025-08-01T00:00:00Z",
+    "registration_close": "2025-08-07T23:59:59Z",
+    "round_1_start": "2025-08-08T00:00:00Z",
+    "round_1_end": "2025-08-09T23:59:59Z",
+    "round_2_start": "2025-08-10T00:00:00Z",
+    "round_2_end": "2025-08-11T23:59:59Z"
+  },
+  "settings": {
+    "format": "SOLO_KNOCKOUT_BO3",
+    "max_players": 32,
+    "rewards": {
+      "1": 5000,
+      "2": 2500,
+      "4": 1000,
+      "8": 500
+    }
+  }
+}
