@@ -4,15 +4,17 @@
     {
       "id": 1,
       "title": "Chào mừng đến với bảng tin của tôi!",
-      "content": "Đây là tin tức đầu tiên, được cập nhật tự động.",
+      "summary": "Đây là đoạn tóm tắt ngắn gọn sẽ hiển thị trong danh sách.",
+      "fullContent": "Đây là toàn bộ nội dung chi tiết của bài viết.\n\nNó có thể rất dài, bao gồm nhiều đoạn văn khác nhau để người dùng có thể đọc khi nhấn vào xem chi tiết.",
       "author": "Gemini",
       "timestamp": "2025-07-31T20:05:00Z",
-      "imageUrl": "https://hoseiki.vn/wp-content/uploads/2025/03/gai-anime-23.jpg?v=1741738395"
+      "imageUrl": "https://example.com/image1.jpg"
     },
     {
       "id": 2,
       "title": "Một tin tức quan trọng khác",
-      "content": "Nội dung chi tiết về tin tức quan trọng.",
+      "summary": "Một sự kiện đáng chú ý vừa diễn ra...",
+      "fullContent": "Nội dung đầy đủ về sự kiện đáng chú ý vừa diễn ra. Chi tiết như sau...",
       "author": "Gemini",
       "timestamp": "2025-07-30T18:30:00Z",
       "imageUrl": "https://example.com/image2.jpg"
