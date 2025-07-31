@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "articles": [
+    {
+      "id": 1,
+      "title": "Chào mừng đến với bảng tin của tôi!",
+      "content": "Đây là tin tức đầu tiên, được cập nhật tự động.",
+      "author": "Gemini",
+      "timestamp": "2025-07-31T20:05:00Z",
+      "imageUrl": "https://example.com/image1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Một tin tức quan trọng khác",
+      "content": "Nội dung chi tiết về tin tức quan trọng.",
+      "author": "Gemini",
+      "timestamp": "2025-07-30T18:30:00Z",
+      "imageUrl": "https://example.com/image2.jpg"
+    }
+  ]
+}
