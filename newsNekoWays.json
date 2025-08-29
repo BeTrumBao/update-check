@@ -12,6 +12,15 @@
     },
      {
       "id": 2,
+      "title": "Bản Cập Nhật 2.1.2.r Có Gì ?",
+      "summary": "Cập Nhật Thuật Toán Lấy Dữ Liệu Tìm Kiếm , Nâng Cấp Bảo Mật Cho Client ? Cùng xem nhé !",
+      "fullContent": "NekoWays hiện đã sửa lại thuật toán lấy dữ liệu tìm kiếm giúp việc tìm kiếm video tốt hơn . Áp dụng Rule mới cho client bảo mật tốt hơn . Mục hỗ trợ đã được thêm vào giúp bạn giải đáp mọi thắc mắc của App . Xóa video đã đuwọc ra mắt giúp bạn xóa video trong trang tải xuống . Và còn nhiều thứ khác ! Chúc bạn buổi tối vui vẻ (Báo Neyako , 29/8/2025) ",
+      "author": "Báo Neyako",
+      "date": "2025-08-28T20:05:00Z",
+      "imageUrl": "https://betrumbao.github.io/update-check/2135.png"
+    },
+     {
+      "id": 3,
       "title": "Hôm nay NekoWays Có Gì ?",
       "summary": "Hôm Nay NekoWays Có Gì ? Ngày 6/8",
       "fullContent": "Sau nhiều ngày vắng bóng thì . Hôm Nay NekoWays Đã Có Những Tính Năng Mới Sau Đây .\n 1 : Thay đổi giao diện (UI) ở 1 số mục ! \n 2 : Tính năng tải video đã được ra mắt ! \n 3 : Còn nhiều thứ khác đã được thêm vào giúp nâng tầm trải nghiệm người dùng !\n Cảm ơn bạn đã đọc hết . Chúc bạn 1 ngày mới vui vẻ (Báo Neyako , 6/8/2025) ",
@@ -20,7 +29,7 @@
       "imageUrl": "https://betrumbao.github.io/update-check/NekoWays.png"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Hôm nay NekoWays Có Gì ?",
       "summary": "Hôm Nay NekoWays Có Gì ? Ngày 3/8",
       "fullContent": "Hôm Nay NekoWays Có Những Tính Năng Mới Sau Đây .\n 1 : Tính năng login đã được cập nhật vào giúp nâng tầm trải nghiệm của người dùng ! \n 2 : Tính năng gửi lỗi với giao diện mới đã được ra mắt giúp bạn dễ dãng báo cáo các lỗi của app ! \n 3 : Lịch sử bây giờ có thể xem lại được ở máy khác với tính năng login ! \n 4 : Hệ thống bây giờ đã được nâng cấp nhầm đảm bảo tính bảo mật và tính toàn vẹn của dữ liệu ! \n Cảm ơn bạn đã đọc hết . Chúc bạn 1 ngày mới vui vẻ (Báo Neyako , 3/8/2025) ",
@@ -29,7 +38,7 @@
       "imageUrl": "https://betrumbao.github.io/update-check/NekoWays.png"
     },
       {
-      "id": 4,
+      "id": 5,
       "title": "Hôm nay NekoWays Có Gì ?",
       "summary": "Hôm Nay NekoWays Có Gì ? Ngày 2/8",
       "fullContent": "Hôm Nay NekoWays Có Những Tính Năng Mới Sau Đây .\n 1 : Hẹn giờ đã có 1 giao diện mới đẹp hơn ! \n 2 : Tính năng gợi ý đã hoạt động bình thường ! \n 3 : Hiệu ứng loading screen đã có mặt ! \n 4 : Đối với bình luận dài trên 4 dòng đã được ẩn có thể ấn 1 lần vô bình luận bị ấn qua 4 dòng để coi chi tiết và ngược lại ! \n 5 : Trang chủ đã có thể hiện video bạn đã tìm kiếm ! \n 6 : Tối ưu hệ thống \n Cảm ơn bạn đã đọc hết . Chúc bạn 1 ngày mới vui vẻ (Báo Neyako , 2/8/2025) ",
