@@ -1,6 +1,30 @@
 [
   {
     "question": "NekoWays là ứng dụng gì?",
-    "answer": "NekoWays là 1 ứng dụng giúp bạn coi video không quảng cáo như youtube mà miên phi !"
+    "answer": "NekoWays không chỉ là một ứng dụng xem video. Đây là một không gian được tạo ra để giúp bạn tìm thấy sự bình yên, tập trung và thư giãn. Chúng tôi tự tay tuyển chọn những video nhạc lofi, chill, và những khoảnh khắc dễ thương, giúp bạn thoát khỏi sự ồn ào của cuộc sống hàng ngày và tận hưởng một trải nghiệm xem không bị gián đoạn."
+  },
+  {
+    "question": "Trang chủ dùng để làm gì?",
+    "answer": "Trang chủ là cánh cửa dẫn vào thế giới thư giãn của NekoWays. Mỗi lần bạn truy cập, chúng tôi sẽ hiển thị một danh sách các video đề xuất mới mẻ dựa trên các chủ đề được yêu thích. Mục tiêu của chúng tôi là giúp bạn khám phá những nội dung tuyệt vời mà không cần tốn công tìm kiếm. Để bắt đầu một cuộc tìm kiếm cụ thể, bạn chỉ cần nhấn vào biểu tượng kính lúp ở góc màn hình."
+  },
+  {
+    "question": "Tính năng Lịch sử hoạt động như thế nào?",
+    "answer": "Tính năng Lịch sử giống như một cuốn nhật ký ghi lại hành trình âm nhạc của bạn. Mọi video bạn đã xem sẽ được tự động lưu lại. Điểm đặc biệt là khi bạn đăng nhập, toàn bộ lịch sử này sẽ được đồng bộ hóa an toàn. Điều này có nghĩa là bạn có thể bắt đầu xem một playlist trên điện thoại và sau đó xem tiếp trên máy tính bảng mà không bỏ lỡ bất cứ điều gì. Nếu bạn muốn tạm thời ngưng lưu lại hoạt động của mình, bạn có thể dễ dàng tắt tính năng này trong mục Tài khoản."
+  },
+  {
+    "question": "Mục 'Tiện Ích' là gì?",
+    "answer": "Mục 'Tiện Ích' là trung tâm điều khiển của bạn. Tại đây, bạn có thể quản lý tài khoản cá nhân, bật/tắt các tính năng như đồng bộ lịch sử, gửi góp ý hoặc báo lỗi trực tiếp đến đội ngũ phát triển, và truy cập các thông tin quan trọng khác về ứng dụng."
+  },
+  {
+    "question": "Tại sao cần đăng nhập bằng Google hoặc Email?",
+    "answer": "Việc đăng nhập sẽ mở khóa toàn bộ tiềm năng của NekoWays, cho phép bạn đồng bộ lịch sử xem liền mạch trên mọi thiết bị. Hãy yên tâm rằng tài khoản NekoWays của bạn là hoàn toàn độc lập. Lịch sử và dữ liệu của bạn trên NekoWays không hề liên quan hay ảnh hưởng đến tài khoản YouTube cá nhân của bạn."
+  },
+  {
+    "question": "Dữ liệu của tôi được sử dụng như thế nào?",
+    "answer": "Chúng tôi chỉ sử dụng những dữ liệu cần thiết nhất để vận hành ứng dụng, bao gồm email của bạn để xác thực và lịch sử xem để cung cấp tính năng đồng bộ. Sự riêng tư của bạn là ưu tiên hàng đầu. Chúng tôi cam kết không bán hoặc chia sẻ dữ liệu cá nhân của bạn cho bất kỳ bên thứ ba nào cho mục đích quảng cáo."
+  },
+  {
+    "question": "Điều gì xảy ra khi tôi xóa tài khoản?",
+    "answer": "Khi bạn yêu cầu xóa tài khoản, chúng tôi coi đây là một yêu cầu không thể thu hồi. Một quy trình tự động sẽ được kích hoạt để xóa vĩnh viễn toàn bộ dữ liệu nhận dạng cá nhân của bạn, bao gồm email và lịch sử xem, khỏi các máy chủ đang hoạt động của chúng tôi. Dữ liệu của bạn sẽ biến mất hoàn toàn."
   }
 ]
