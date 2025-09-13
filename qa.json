@@ -1,30 +1,86 @@
 [
   {
-    "question": "NekoWays là ứng dụng gì?",
-    "answer": "NekoWays không chỉ là một ứng dụng xem video. Đây là một không gian được tạo ra để giúp bạn tìm thấy sự bình yên, tập trung và thư giãn. Chúng tôi tự tay tuyển chọn những video nhạc lofi, chill, và những khoảnh khắc dễ thương, giúp bạn thoát khỏi sự ồn ào của cuộc sống hàng ngày và tận hưởng một trải nghiệm xem không bị gián đoạn."
+    "question": "NekoWays là gì?",
+    "answer": "NekoWays không chỉ là một ứng dụng xem video thông thường. Đây là không gian riêng tư được tạo ra để giúp bạn tìm thấy sự bình yên, tập trung và thư giãn. Chúng mình tự tay tuyển chọn những video nhạc lofi, chill, cùng những khoảnh khắc dễ thương để bạn có thể thoát khỏi sự ồn ào hàng ngày và tận hưởng trải nghiệm xem không bị gián đoạn."
   },
   {
-    "question": "Trang chủ dùng để làm gì?",
-    "answer": "Trang chủ là cánh cửa dẫn vào thế giới thư giãn của NekoWays. Mỗi lần bạn truy cập, chúng tôi sẽ hiển thị một danh sách các video đề xuất mới mẻ dựa trên các chủ đề được yêu thích. Mục tiêu của chúng tôi là giúp bạn khám phá những nội dung tuyệt vời mà không cần tốn công tìm kiếm. Để bắt đầu một cuộc tìm kiếm cụ thể, bạn chỉ cần nhấn vào biểu tượng kính lúp ở góc màn hình."
+    "question": "NekoWays có miễn phí không?",
+    "answer": "Hoàn toàn miễn phí. Mục tiêu của chúng mình là giữ cho trải nghiệm thư giãn cốt lõi luôn miễn phí và dễ dàng tiếp cận cho tất cả mọi người. Trong tương lai, có thể sẽ có các tính năng cao cấp tùy chọn để hỗ trợ đội ngũ phát triển duy trì ứng dụng."
   },
   {
-    "question": "Tính năng Lịch sử hoạt động như thế nào?",
-    "answer": "Tính năng Lịch sử giống như một cuốn nhật ký ghi lại hành trình âm nhạc của bạn. Mọi video bạn đã xem sẽ được tự động lưu lại. Điểm đặc biệt là khi bạn đăng nhập, toàn bộ lịch sử này sẽ được đồng bộ hóa an toàn. Điều này có nghĩa là bạn có thể bắt đầu xem một playlist trên điện thoại và sau đó xem tiếp trên máy tính bảng mà không bỏ lỡ bất cứ điều gì. Nếu bạn muốn tạm thời ngưng lưu lại hoạt động của mình, bạn có thể dễ dàng tắt tính năng này trong mục Tài khoản."
+    "question": "NekoWays có quảng cáo không?",
+    "answer": "Hoàn toàn không. Triết lý của NekoWays là tạo ra một không gian thư giãn không bị gián đoạn. Chúng mình sẽ không bao giờ chèn quảng cáo vào giữa trải nghiệm xem của bạn. Sự bình yên của bạn là điều quan trọng nhất."
   },
   {
-    "question": "Mục 'Tiện Ích' là gì?",
-    "answer": "Mục 'Tiện Ích' là trung tâm điều khiển của bạn. Tại đây, bạn có thể quản lý tài khoản cá nhân, bật/tắt các tính năng như đồng bộ lịch sử, gửi góp ý hoặc báo lỗi trực tiếp đến đội ngũ phát triển, và truy cập các thông tin quan trọng khác về ứng dụng."
+    "question": "Trang chủ có gì đặc biệt?",
+    "answer": "Trang chủ là cánh cửa dẫn bạn vào thế giới thư giãn của NekoWays. Mỗi lần ghé thăm, bạn sẽ thấy một danh sách các video đề xuất mới mẻ, được chọn lọc dựa trên các chủ đề đang được yêu thích. Mục tiêu của chúng mình là giúp bạn khám phá những nội dung tuyệt vời mà không cần tốn công tìm kiếm."
   },
   {
-    "question": "Tại sao cần đăng nhập bằng Google hoặc Email?",
-    "answer": "Việc đăng nhập sẽ mở khóa toàn bộ tiềm năng của NekoWays, cho phép bạn đồng bộ lịch sử xem liền mạch trên mọi thiết bị. Hãy yên tâm rằng tài khoản NekoWays của bạn là hoàn toàn độc lập. Lịch sử và dữ liệu của bạn trên NekoWays không hề liên quan hay ảnh hưởng đến tài khoản YouTube cá nhân của bạn."
+    "question": "Tab 'Khám Phá' dùng để làm gì?",
+    "answer": "Nếu Trang chủ là nơi để bạn thả mình theo những gợi ý nhẹ nhàng, thì 'Khám Phá' là nơi bạn chủ động tìm kiếm. Tại đây, bạn có thể duyệt video theo các thể loại (như lofi hip-hop, ambient), tâm trạng (học tập, ngủ, suy tư), hoặc các bộ sưu tập đặc biệt do chúng mình tuyển chọn."
   },
   {
-    "question": "Dữ liệu của tôi được sử dụng như thế nào?",
-    "answer": "Chúng tôi chỉ sử dụng những dữ liệu cần thiết nhất để vận hành ứng dụng, bao gồm email của bạn để xác thực và lịch sử xem để cung cấp tính năng đồng bộ. Sự riêng tư của bạn là ưu tiên hàng đầu. Chúng tôi cam kết không bán hoặc chia sẻ dữ liệu cá nhân của bạn cho bất kỳ bên thứ ba nào cho mục đích quảng cáo."
+    "question": "Tính năng tìm kiếm hoạt động như thế nào?",
+    "answer": "Tính năng tìm kiếm của NekoWays được kết nối trực tiếp với thư viện khổng lồ của YouTube, nhưng được tinh chỉnh để ưu tiên các nội dung thư giãn, lofi và chill. Bạn chỉ cần chạm vào biểu tượng kính lúp và nhập từ khóa bạn muốn."
   },
   {
-    "question": "Điều gì xảy ra khi tôi xóa tài khoản?",
-    "answer": "Khi bạn yêu cầu xóa tài khoản, chúng tôi coi đây là một yêu cầu không thể thu hồi. Một quy trình tự động sẽ được kích hoạt để xóa vĩnh viễn toàn bộ dữ liệu nhận dạng cá nhân của bạn, bao gồm email và lịch sử xem, khỏi các máy chủ đang hoạt động của chúng tôi. Dữ liệu của bạn sẽ biến mất hoàn toàn."
+    "question": "Lịch sử xem hoạt động như thế nào?",
+    "answer": "Tính năng Lịch sử giống như một cuốn nhật ký ghi lại hành trình thư giãn của bạn. Mọi video bạn đã xem sẽ được tự động lưu lại. Đặc biệt, khi bạn đăng nhập, toàn bộ lịch sử này sẽ được đồng bộ hóa an toàn. Điều này có nghĩa là bạn có thể bắt đầu xem trên điện thoại và tiếp tục trên máy tính bảng mà không bỏ lỡ bất cứ khoảnh khắc nào."
+  },
+  {
+    "question": "Mình có thể tạo playlist riêng không?",
+    "answer": "Hiện tại thì chưa, nhưng đây là tính năng được yêu cầu nhiều nhất và đang đứng đầu danh sách ưu tiên phát triển của chúng mình! Hãy chờ đón trong các bản cập nhật sắp tới nhé."
+  },
+  {
+    "question": "Mình có thể nghe nhạc khi đã tắt màn hình không?",
+    "answer": "Chúng mình hiểu đây là một tính năng cực kỳ quan trọng cho một ứng dụng thư giãn. Đội ngũ đang làm việc tích cực để sớm ra mắt tính năng phát trong nền (background play). Cảm ơn bạn đã kiên nhẫn nhé!"
+  },
+  {
+    "question": "Ứng dụng có hẹn giờ tắt không?",
+    "answer": "Tính năng hẹn giờ tắt (Sleep Timer) đang được lên kế hoạch và sẽ sớm được tích hợp. Chúng mình muốn bạn có thể chìm vào giấc ngủ cùng những giai điệu của NekoWays mà không cần lo lắng về việc tắt ứng dụng."
+  },
+  {
+    "question": "Mục 'Tiện Ích' dùng để làm gì?",
+    "answer": "Mục 'Tiện Ích' chính là trung tâm điều khiển cá nhân của bạn. Tại đây, bạn có thể quản lý tài khoản, bật/tắt các tính năng như đồng bộ lịch sử, gửi góp ý hoặc báo lỗi trực tiếp đến đội ngũ phát triển, và truy cập các thông tin quan trọng khác về ứng dụng NekoWays."
+  },
+  {
+    "question": "Video trên app được chọn lọc như thế nào?",
+    "answer": "Mọi video trên NekoWays đều do đội ngũ của chúng mình tự tay nghe và chọn lọc. Chúng mình luôn tìm kiếm những giai điệu, hình ảnh mang lại cảm giác bình yên, dễ chịu và phù hợp với tiêu chí của ứng dụng. Đây là công việc được làm bằng cả trái tim."
+  },
+  {
+    "question": "Làm sao để đề xuất một video hay cho NekoWays?",
+    "answer": "Chúng mình rất thích nhận được gợi ý từ cộng đồng! Bạn có thể gửi link video bạn yêu thích cho chúng mình thông qua mục 'Gửi góp ý' trong tab 'Tiện Ích'. Đội ngũ sẽ xem xét và chọn lọc để thêm vào ứng dụng."
+  },
+  {
+    "question": "Xem video trên NekoWays có tốn nhiều data không?",
+    "answer": "Có. Vì chúng mình ưu tiên các video chất lượng cao để đảm bảo trải nghiệm hình ảnh và âm thanh tốt nhất, việc xem video sẽ tiêu thụ một lượng dữ liệu tương đối. Chúng mình khuyên bạn nên sử dụng kết nối Wi-Fi để có trải nghiệm mượt mà và tiết kiệm nhất."
+  },
+  {
+    "question": "App hay bị giật/đứng hình, mình phải làm sao?",
+    "answer": "Chúng mình rất tiếc vì trải nghiệm của bạn chưa được trọn vẹn. Vui lòng thử kiểm tra lại kết nối Internet (Wi-Fi hoặc 4G/5G). Nếu vấn đề vẫn tiếp diễn, hãy thử khởi động lại ứng dụng. Nếu vẫn không được, đừng ngần ngại báo lỗi cho chúng mình qua mục 'Tiện Ích' nhé."
+  },
+  {
+    "question": "Tại sao mình cần đăng nhập?",
+    "answer": "Việc đăng nhập sẽ giúp bạn mở khóa toàn bộ tiềm năng của NekoWays, cho phép đồng bộ lịch sử xem một cách liền mạch trên mọi thiết bị. Bạn hãy yên tâm rằng tài khoản NekoWays của bạn là hoàn toàn độc lập và không hề liên quan hay ảnh hưởng đến tài khoản YouTube cá nhân của bạn."
+  },
+  {
+    "question": "Mình quên mật khẩu thì phải làm sao?",
+    "answer": "Nếu bạn đăng nhập bằng Email và quên mật khẩu, hãy sử dụng tính năng 'Quên mật khẩu' ngay trên màn hình đăng nhập. Một đường link để đặt lại mật khẩu sẽ được gửi đến email của bạn. Nếu bạn đăng nhập qua Google, bạn không cần phải nhớ mật khẩu NekoWays."
+  },
+  {
+    "question": "Dữ liệu của mình được sử dụng ra sao?",
+    "answer": "Chúng mình chỉ sử dụng những dữ liệu cần thiết nhất để ứng dụng hoạt động trơn tru, bao gồm email của bạn để xác thực và lịch sử xem để cung cấp tính năng đồng bộ. Sự riêng tư của bạn là ưu tiên hàng đầu. Chúng mình cam kết không bán hoặc chia sẻ dữ liệu cá nhân của bạn cho bất kỳ bên thứ ba nào với mục đích quảng cáo."
+  },
+  {
+    "question": "Điều gì xảy ra khi mình xóa tài khoản?",
+    "answer": "Khi bạn yêu cầu xóa tài khoản, chúng mình coi đây là một yêu cầu không thể thu hồi. Một quy trình tự động sẽ được kích hoạt để xóa vĩnh viễn toàn bộ dữ liệu nhận dạng cá nhân của bạn, bao gồm email và lịch sử xem, khỏi các máy chủ đang hoạt động. Dữ liệu của bạn sẽ biến mất hoàn toàn và không thể khôi phục."
+  },
+  {
+    "question": "NekoWays có phiên bản cho máy tính không?",
+    "answer": "Hiện tại NekoWays được thiết kế tối ưu cho trải nghiệm trên điện thoại và máy tính bảng. Chúng mình chưa có kế hoạch cho phiên bản máy tính, nhưng sẽ luôn lắng nghe phản hồi từ cộng đồng."
+  },
+  {
+    "question": "Mình là một nghệ sĩ, làm sao để nhạc/artwork của mình xuất hiện trên NekoWays?",
+    "answer": "Thật tuyệt vời! Chúng mình luôn chào đón các nghệ sĩ và nhà sáng tạo. Vui lòng liên hệ với chúng mình qua email được cung cấp trong phần 'Thông tin' của ứng dụng, đính kèm link đến tác phẩm của bạn. Chúng mình rất mong được hợp tác."
   }
 ]
