@@ -4,4 +4,16 @@
   "url": "https://drive.usercontent.google.com/download?id=1c0JpomR8GCwFYJUkqmF5KKOlxwLHy7lg&export=download&confirm=t&uuid=b2707e4c-e8d2-41c8-86b9-8808d283f6c8",
   "releaseNotes": "- Thêm nhiều tính năng mới \n- Sửa lỗi\n- Giao diện mới mượt mà hơn",
   "isMandatory": false 
-}
+},
+[
+  {
+    "title": "Cập nhật v1.0.5",
+    "content": "Đã thêm tính năng Gợi ý và nút Back nổi cực tiện lợi!",
+    "date": "20/05"
+  },
+  {
+    "title": "Mẹo nhỏ",
+    "content": "Bạn có thể vuốt ngang để xóa lịch sử đọc báo nhanh chóng.",
+    "date": "19/05"
+  }
+]
