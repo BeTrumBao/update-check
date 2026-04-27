@@ -4,12 +4,12 @@
   "url": "https://drive.google.com/...",
   "releaseNotes": "- Thêm nhiều tính năng mới \n- Sửa lỗi\n- Giao diện mới mượt mà hơn",
   "isMandatory": false,
-  "themeColor": "#FF0000", 
+  "themeColor": "#1976D2", 
   "resources": [
-    { "domain": "baomoi.com", "icon": "ic_baomoi" },
-    { "domain": "tuoitre.vn", "icon": "ic_tuoitre" },
-    { "domain": "thanhnien.vn", "icon": "ic_thanhnien" },
-    { "domain": "dantri.com.vn", "icon": "ic_dantri" },
+    { "domain": "baomoi.com", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" },
+    { "domain": "tuoitre.vn", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" },
+    { "domain": "thanhnien.vn", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" },
+    { "domain": "dantri.com.vn", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" },
     { "domain": "vnexpress.net", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" }
   ],
   "systemNews": [
