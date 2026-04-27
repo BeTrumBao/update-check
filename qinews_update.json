@@ -4,7 +4,7 @@
   "url": "https://drive.google.com/...",
   "releaseNotes": "- Thêm nhiều tính năng mới \n- Sửa lỗi\n- Giao diện mới mượt mà hơn",
   "isMandatory": false,
-  "themeColor": "#1976D2", 
+  "themeColor": "#FF0000", 
   "resources": [
     { "domain": "baomoi.com", "icon": "ic_baomoi" },
     { "domain": "tuoitre.vn", "icon": "ic_tuoitre" },
