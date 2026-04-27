@@ -1,19 +1,25 @@
-{
   "versionCode": 2,
   "versionName": "26.4.24_r",
-  "url": "https://drive.usercontent.google.com/download?id=1c0JpomR8GCwFYJUkqmF5KKOlxwLHy7lg&export=download&confirm=t&uuid=b2707e4c-e8d2-41c8-86b9-8808d283f6c8",
+  "url": "https://drive.google.com/...",
   "releaseNotes": "- Thêm nhiều tính năng mới \n- Sửa lỗi\n- Giao diện mới mượt mà hơn",
-  "isMandatory": false 
-},
-[
-  {
-    "title": "Cập nhật v1.0.5",
-    "content": "Đã thêm tính năng Gợi ý và nút Back nổi cực tiện lợi!",
-    "date": "20/05"
-  },
-  {
-    "title": "Mẹo nhỏ",
-    "content": "Bạn có thể vuốt ngang để xóa lịch sử đọc báo nhanh chóng.",
-    "date": "19/05"
-  }
-]
+  "isMandatory": false,
+  "themeColor": "#1976D2", 
+  "resources": [
+    { "domain": "baomoi.com", "icon": "ic_baomoi" },
+    { "domain": "tuoitre.vn", "icon": "ic_tuoitre" },
+    { "domain": "thanhnien.vn", "icon": "ic_thanhnien" },
+    { "domain": "dantri.com.vn", "icon": "ic_dantri" }
+  ],
+  "systemNews": [
+    {
+      "title": "Cập nhật v1.0.5",
+      "content": "Đã thêm tính năng Gợi ý và nút Back nổi cực tiện lợi!",
+      "date": "20/05"
+    },
+    {
+      "title": "Mẹo nhỏ",
+      "content": "Bạn có thể vuốt ngang để xóa lịch sử đọc báo nhanh chóng.",
+      "date": "19/05"
+    }
+  ]
+}
