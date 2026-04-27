@@ -1,3 +1,4 @@
+{
   "versionCode": 2,
   "versionName": "26.4.24_r",
   "url": "https://drive.google.com/...",
@@ -8,7 +9,8 @@
     { "domain": "baomoi.com", "icon": "ic_baomoi" },
     { "domain": "tuoitre.vn", "icon": "ic_tuoitre" },
     { "domain": "thanhnien.vn", "icon": "ic_thanhnien" },
-    { "domain": "dantri.com.vn", "icon": "ic_dantri" }
+    { "domain": "dantri.com.vn", "icon": "ic_dantri" },
+    { "domain": "vnexpress.net", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" }
   ],
   "systemNews": [
     {
