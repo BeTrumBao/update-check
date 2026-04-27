@@ -6,11 +6,11 @@
   "isMandatory": false,
   "themeColor": "#1976D2", 
   "resources": [
-    { "domain": "baomoi.com", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" },
-    { "domain": "tuoitre.vn", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" },
-    { "domain": "thanhnien.vn", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" },
-    { "domain": "dantri.com.vn", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" },
-    { "domain": "vnexpress.net", "icon": "https://s1.vnecdn.net/vnexpress/restruct/i/v852/logo_vne_2.png" }
+    { "domain": "baomoi.com", "icon": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/hinh-nen-anime-nam-7.jpg" },
+    { "domain": "tuoitre.vn", "icon": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/hinh-nen-anime-nam-7.jpg" },
+    { "domain": "thanhnien.vn", "icon": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/hinh-nen-anime-nam-7.jpg" },
+    { "domain": "dantri.com.vn", "icon": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/hinh-nen-anime-nam-7.jpg" },
+    { "domain": "vnexpress.net", "icon": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/hinh-nen-anime-nam-7.jpg" }
   ],
   "systemNews": [
     {
