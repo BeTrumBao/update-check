@@ -18,19 +18,5 @@
     { "domain": "thanhnien.vn", "icon": "ic_thanhnien" },
     { "domain": "dantri.com.vn", "icon": "ic_dantri" },
     { "domain": "vnexpress.net", "icon": "ic_newspaper" }
-  ],
-  "systemNews": [
-    {
-      "id": "update_26.4.28",
-      "title": "Cập nhật v26.4.8",
-      "content": "Đã thêm nhiều tính năng tiện lợi!",
-      "date": "28/04"
-    },
-    {
-      "id": "tip_swipe",
-      "title": "Mẹo nhỏ",
-      "content": "Bạn có thể vuốt ngang để xóa lịch sử đọc báo nhanh chóng.",
-      "date": "19/04"
-    }
   ]
 }
