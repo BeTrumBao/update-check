@@ -1,27 +1,36 @@
 {
-  "versionCode": 2,
-  "versionName": "26.4.24_r",
-  "url": "https://drive.google.com/...",
-  "releaseNotes": "- Thêm nhiều tính năng mới \n- Sửa lỗi\n- Giao diện mới mượt mà hơn",
-  "isMandatory": false,
-  "themeColor": "#1976D2", 
+  "versionCode": 3,
+  "versionName": "26.4.28_r",
+  "url": "https://drive.usercontent.google.com/download?id=1CpuIEi40ISUIsSROjtAifHrYUepc6-yr&export=download&confirm=t&uuid=5f4116da-e40d-44b4-9cfb-b7b40e20494f",
+  "releaseNotes": "• Fix bug bạn đã đọc báo hoàn thành \n• Thêm thống kê trải nghiệm trong cài đặt \n• Thêm tùy chỉnh sở thích của bạn , gợi ý cho bạn ở trang chủ \n• Sửa lỗi hiệu năng ở phiên bản trước \n• Và còn nhiều thứ khác",
+  "isMandatory": true,
+  "themeColor": "#1976D2",
+  "newsSources": [
+    { "name": "Báo Mới", "url": "https://baomoi.com", "icon": "ic_baomoi" },
+    { "name": "Tuổi Trẻ", "url": "https://tuoitre.vn", "icon": "ic_tuoitre" },
+    { "name": "Thanh Niên", "url": "https://thanhnien.vn", "icon": "ic_thanhnien" },
+    { "name": "Dân Trí", "url": "https://dantri.com.vn", "icon": "ic_dantri" },
+    { "name": "VnExpress", "url": "https://vnexpress.net", "icon": "ic_newspaper" }
+  ],
   "resources": [
-    { "domain": "baomoi.com", "icon": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/hinh-nen-anime-nam-7.jpg" },
-    { "domain": "tuoitre.vn", "icon": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/hinh-nen-anime-nam-7.jpg" },
-    { "domain": "thanhnien.vn", "icon": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/hinh-nen-anime-nam-7.jpg" },
-    { "domain": "dantri.com.vn", "icon": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/hinh-nen-anime-nam-7.jpg" },
-    { "domain": "vnexpress.net", "icon": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/hinh-nen-anime-nam-7.jpg" }
+    { "domain": "baomoi.com", "icon": "ic_baomoi" },
+    { "domain": "tuoitre.vn", "icon": "ic_tuoitre" },
+    { "domain": "thanhnien.vn", "icon": "ic_thanhnien" },
+    { "domain": "dantri.com.vn", "icon": "ic_dantri" },
+    { "domain": "vnexpress.net", "icon": "ic_newspaper" }
   ],
   "systemNews": [
     {
-      "title": "Cập nhật v1.0.5",
-      "content": "Đã thêm tính năng Gợi ý và nút Back nổi cực tiện lợi!",
-      "date": "20/05"
+      "id": "update_26.4.28",
+      "title": "Cập nhật v26.4.8",
+      "content": "Đã thêm nhiều tính năng tiện lợi!",
+      "date": "28/04"
     },
     {
+      "id": "tip_swipe",
       "title": "Mẹo nhỏ",
       "content": "Bạn có thể vuốt ngang để xóa lịch sử đọc báo nhanh chóng.",
-      "date": "19/05"
+      "date": "19/04"
     }
   ]
 }
