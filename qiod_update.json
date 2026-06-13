@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "release_notes": "- Thêm tính năng OTA Update\n- Fix lỗi kéo thả icon\n- Tối ưu mượt mà 250ms",
   "bin_url": "https://raw.githubusercontent.com/TenCuaBac/TenRepo/main/update.bin"
 }
