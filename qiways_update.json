@@ -1,7 +1,7 @@
 {
-  "versionCode": 2,
-  "versionName": "2026.1.2",
-  "changelog": "- QiWays ở phiên bản mới có gì ? \n- Cải thiện UI \n-Thêm tính năng nhập dữ liệu từ Google Takout \n- Và còn nhiều tính năng khác",
+  "versionCode": 3,
+  "versionName": "2026.1.2.1",
+  "changelog": "- QiWays ở phiên bản mới có gì ? \n- Fix các lỗi ở phiên bản cũ \n-Thêm tính năng Danh sách phát \n- Và còn nhiều tính năng khác",
   "isMandatory": true,
-  "downloadUrl": "https://drive.usercontent.google.com/download?id=1wjjTpa4MLuK4GmZ1LPNuwChE_Q8yTYmG&export=download&authuser=0&confirm=t&uuid=4a2599ed-08bc-4f8c-8fa6-9e693c4d6f2a&at=ABswASZUzYM2Zgm-j9axxl_oYd-4%3A1782401064488"
+  "downloadUrl": "https://drive.usercontent.google.com/download?id=1c3DWLrfWWDqUAdM_MQJhc-N0kuNNgDMa&export=download&authuser=0&confirm=t&uuid=d1d0bdd2-47dd-4b75-a758-2cfa1bf9c034&at=ABswASb12Q2h8FtkSZh5oNKP6Oux%3A1782553671669"
 }
