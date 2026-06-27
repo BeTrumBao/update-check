@@ -1,7 +1,7 @@
 {
   "versionCode": 3,
   "versionName": "2026.1.2.1",
-  "changelog": "- QiWays ở phiên bản mới có gì ? \n- Fix các lỗi ở phiên bản cũ \n-Thêm tính năng Danh sách phát \n- Và còn nhiều tính năng khác",
-  "isMandatory": true,
+  "changelog": "- QiWays ở phiên bản mới có gì ? \n- Fix các lỗi ở phiên bản cũ \n-Thêm tính năng Danh sách phát \n- Và còn nhiều tính năng khác . Nếu bạn không thể tải xuống bản cập nhật này hãy vào link này để tải : https://drive.usercontent.google.com/download?id=1c3DWLrfWWDqUAdM_MQJhc-N0kuNNgDMa&export=download&authuser=0&confirm=t&uuid=d1d0bdd2-47dd-4b75-a758-2cfa1bf9c034&at=ABswASb12Q2h8FtkSZh5oNKP6Oux%3A1782553671669",
+  "isMandatory": false,
   "downloadUrl": "https://drive.usercontent.google.com/download?id=1c3DWLrfWWDqUAdM_MQJhc-N0kuNNgDMa&export=download&authuser=0&confirm=t&uuid=d1d0bdd2-47dd-4b75-a758-2cfa1bf9c034&at=ABswASb12Q2h8FtkSZh5oNKP6Oux%3A1782553671669"
 }
