@@ -3,5 +3,6 @@
   "versionName": "2026.7.1.1",
   "changelog": "- QiWays ở phiên bản mới có gì ? \n- Fix các lỗi ở phiên bản cũ và cải tiến \n- EmQizi(1/7/2026)",
   "isMandatory": true,
+  "isSilentPatch": true,
   "downloadUrl": "https://drive.usercontent.google.com/download?id=1dg2P7HhqzqGwN1kRzOR3o2w17hOesBi0&export=download&confirm=t&uuid=234e402f-ebef-4348-9c93-7f6b8cbcabd5"
 }
