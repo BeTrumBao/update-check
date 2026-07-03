@@ -1,6 +1,6 @@
 {
   "versionCode": 5,
-  "versionName": "2026.1.8",
+  "versionName": "2026.1.8.release",
   "changelog": "- QiWays ở phiên bản mới có gì ?  \n- Thêm nhiều tính năng hỗ trợ người dùng trong việc sử dụng ứng dụng \n- Tối ưu giao diện người dùng \n- Fix các lỗi ở phiên bản cũ và cải tiến \n- EmQizi(3/7/2026)",
   "isMandatory": true,
   "isSilentPatch": false,
