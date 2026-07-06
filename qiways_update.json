@@ -1,8 +1,8 @@
 {
-  "versionCode": 7,
-  "versionName": "2026.1.11.release",
-  "changelog": "- QiWays ở phiên bản mới có gì ?  \n- Thêm nhiều tính năng hỗ trợ người dùng trong việc sử dụng ứng dụng \n- Tối ưu giao diện người dùng \n- Fix các lỗi ở phiên bản cũ và cải tiến \n- EmQizi(3/7/2026)",
+  "versionCode": 6,
+  "versionName": "2026.1.9.release",
+  "changelog": "- QiWays ở phiên bản mới có gì ? \n- Tối ưu giao diện người dùng \n- Fix các lỗi ở phiên bản cũ và cải tiến \n- EmQizi(6/7/2026)",
   "isMandatory": true,
-  "isSilentPatch": true,
-  "downloadUrl": "https://drive.usercontent.google.com/download?id=1r0dEg8lsOcT3tkZxY4jpOgtbiMVKrr-Z&export=download&confirm=t&uuid=ba20f493-50de-4962-9d13-b3f24c4f1bc1"
+  "isSilentPatch": false,
+  "downloadUrl": "https://drive.usercontent.google.com/download?id=1l1HT50IPL9qAn9zs0RkcFpvZlGrXPcWm&export=download&confirm=t&uuid=8571ed42-38bb-4b1e-8c1a-2734e8675564"
 }
