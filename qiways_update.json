@@ -1,7 +1,7 @@
 {
   "versionCode": 6,
   "versionName": "2026.1.9.release",
-  "changelog": "- QiWays ở phiên bản mới có gì ? \n- Tối ưu giao diện người dùng \n- Fix các lỗi ở phiên bản cũ và cải tiến \n- EmQizi(6/7/2026)",
+  "changelog": "- QiWays ở phiên bản mới có gì ? \n- Tối ưu giao diện người dùng \n- Fix các lỗi ở phiên bản cũ và cải tiến \n- EmQizi(3/7/2026)",
   "isMandatory": true,
   "isSilentPatch": false,
   "downloadUrl": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/YXBwLXJlbGVhc2V2Mi0yMDI2LjEuOS1xaXdheXMuYXBr"
