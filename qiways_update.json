@@ -1,8 +1,35 @@
 {
-  "versionCode": 6,
-  "versionName": "2026.1.9.release",
-  "changelog": "- QiWays ở phiên bản mới có gì ? \n- Tối ưu giao diện người dùng \n- Fix các lỗi ở phiên bản cũ và cải tiến .\n- EmQizi(9/7/2026)",
+  "versionCode": 18,
+  "versionName": "2026.1.18.release",
+  "changelog": "- QiWays ở phiên bản mới có gì ?",
   "isMandatory": true,
   "isSilentPatch": false,
-  "downloadUrl": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/YXBwLXJlbGVhc2V2Mi0yMDI2LjEuOS1xaXdheXMuYXBr"
+  "images": [
+    "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/MS4xNi5wbmc="
+  ],
+  "downloadUrl": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/YXBwLXJlbGVhc2UtdjE4LmFwaw==",
+"hotfix": {
+  "enabled": true,
+  "base_version_code": 18,
+  "patch_id": "patch-v36",
+  "patch_url": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/cGF0Y2hfc2lnbmVkXzd6aXAuYXBr",
+  "sha256": "c6c37160b6db9f0ce8968db791233ba9baf2d033970a185cf028a49d87b355d4"
+},
+  "sdui_enabled": true,
+
+  "sdui": {
+    "page_title": "Home",
+    "sections": [
+      {
+        "id": "welcome_banner",
+        "type": "BANNER",
+        "data": {
+          "image_url": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/QkFOTkVSLXF3LTAxLXYyLnBuZw==",
+          "title": "Chào Mừng Ngày Quốc Khánh 2/9 Cùng QiWays",
+          "subtitle": "Chúc bạn ngày 2/9 thật vui vẻ cùng với gia đình !",
+          "action": ""
+        }
+      }
+    ]
+  }
 }
