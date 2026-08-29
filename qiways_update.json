@@ -11,9 +11,9 @@
 "hotfix": {
   "enabled": true,
   "base_version_code": 18,
-  "patch_id": "patch-v36",
+  "patch_id": "patch-v40",
   "patch_url": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/cGF0Y2hfc2lnbmVkXzd6aXAuYXBr",
-  "sha256": "c6c37160b6db9f0ce8968db791233ba9baf2d033970a185cf028a49d87b355d4"
+  "sha256": "41d2d1c2738e5dffb426e1731aa7c73184da25c7b8e0ff0207f5394a38f6152f"
 },
   "sdui_enabled": true,
 
