@@ -15,7 +15,7 @@
   "patch_url": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/cGF0Y2hfc2lnbmVkXzd6aXAuYXBr",
   "sha256": "41d2d1c2738e5dffb426e1731aa7c73184da25c7b8e0ff0207f5394a38f6152f"
 },
-  "sdui_enabled": true,
+  "sdui_enabled": false,
 
   "sdui": {
     "page_title": "Home",
