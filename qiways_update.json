@@ -1,35 +1,37 @@
 {
-  "versionCode": 18,
-  "versionName": "2026.1.18.release",
-  "changelog": "- QiWays ở phiên bản mới có gì ?",
+  "versionCode": 22,
+  "versionName": "2026.1.21.1.release",
+  "changelog": "- QiWays ở phiên bản mới có gì ? \n- Cải tiến và tối ưu hiệu năng ứng dụng \n- Em Qizi (16/09/2026)",
   "isMandatory": true,
   "isSilentPatch": false,
   "images": [
     "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/MS4xNi5wbmc="
   ],
-  "downloadUrl": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/YXBwLXJlbGVhc2UtdjE4LmFwaw==",
-"hotfix": {
-  "enabled": true,
-  "base_version_code": 18,
-  "patch_id": "patch-v40",
-  "patch_url": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/cGF0Y2hfc2lnbmVkXzd6aXAuYXBr",
-  "sha256": "41d2d1c2738e5dffb426e1731aa7c73184da25c7b8e0ff0207f5394a38f6152f"
-},
-  "sdui_enabled": false,
+  "downloadUrl": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/YXBwLXJlbGVhc2UtdjIyLmFwaw==",
+  "showCarousel": false,
 
+  "hotfix": {
+    "enabled": true,
+    "base_version_code": 22,
+    "patch_id": "26091801",
+    "patch_url": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/cGF0Y2hfc2lnbmVkXzd6aXAuYXBr",
+    "sha256": "da96f2280b381bed2a37dba70560b29114e3320675ecdc14ec5dbc045cc8cb7d"
+  },
+  "sdui_enabled": true,
   "sdui": {
     "page_title": "Home",
     "sections": [
       {
         "id": "welcome_banner",
-        "type": "BANNER",
+        "type": "BANNER_IMAGE",
         "data": {
-          "image_url": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/QkFOTkVSLXF3LTAxLXYyLnBuZw==",
-          "title": "Chào Mừng Ngày Quốc Khánh 2/9 Cùng QiWays",
-          "subtitle": "Chúc bạn ngày 2/9 thật vui vẻ cùng với gia đình !",
-          "action": ""
+          "image_url": "https://emqizi.pythonanywhere.com/gateway_secure_dl_x9/QkFOTkVSLXF3LTAyLnBuZw==",
+          "title":"Cập nhật Điều Khoản Sử Dụng và Chính Sách Bảo Mật (tháng 9/2026)",
+          "subtitle": "Bấm vào đây để xem chi tiết !",
+          "action": "web:https://qiways-web.vercel.app/?id=1&openPopup=true"
+
         }
       }
-    ]
+        ]
   }
 }
